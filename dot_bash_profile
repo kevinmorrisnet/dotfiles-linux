@@ -16,10 +16,6 @@ export CLONE="$HOME/DevOps/Repos/clone"
 #XDG
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
 
-# Paths
-export USR_PATHS="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:"
-export PATH="$USR_PATHS:$PATH"
-
 #kubectl completion
 alias k="kubectl"
 complete -o default -F __start_kubectl k
