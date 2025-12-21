@@ -1,37 +1,6 @@
-# This function is called in your prompt to output your active git branch.
-function parse_git_branch {
-  git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
-
-# This function builds your prompt. It is called below
-function prompt {
-
-  #Define a variable to reset the text color
-  local RESET="\[\e[0m\]"
-
-  # Here is where we actually export the PS1 Variable which stores the text for your prompt
-  export PS1="\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;34m\]\h\[\e[0m\]:\[\e[0;35m\]\w\[\e[0m\]\[\e[0;32m\]\$(parse_git_branch)\[\e[0m\]\n\$"
-  PS2='> '
-  PS4='+ '
-}
-
-# Finally call the function and our prompt is all pretty
-prompt
-
 # Environment Variables
 
-# NODE_PATH
-# Node Path from Homebrew I believe
-export NODE_PATH="/usr/local/lib/node_modules:$NODE_PATH"
-
-# GIT_MERGE_AUTO_EDIT
-# This variable configures git to not require a message when you merge.
-export GIT_MERGE_AUTOEDIT='no'
-
 # Editors
-export VISUAL="nvim"
-export SVN_EDITOR="nvim"
-export GIT_EDITOR="nvim"
 export EDITOR="nvim"
 
 #directories
@@ -51,98 +20,12 @@ export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
 export USR_PATHS="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:"
 export PATH="$USR_PATHS:$PATH"
 
-# Aliases
-
-# ls
-alias ls='ls --color=auto'
-alias ll='ls -la'
-alias la='ls -lah'
-
-#CLI
-alias c='clear'
-alias v='nvim'
-alias t='tmux'
-alias e='exit'
-
-#Directories defined in Environment Variables using export
-alias repos='cd $REPOS'
-alias dev='cd $DEV'
-alias pi='cd $PI'
-alias blog='cd $BLOG'
-alias home='cd $HOMELAB'
-alias github='cd $GITHUB'
-alias sb='cd $SECONDBRAIN'
-alias clone='cd $CLONE'
-
-#K8S
-alias k='kubectl'
-alias kgp='kubectl get pods'
-alias kga='kubectl get all'
-
-#Flux
-alias fgk='flux get kustomizations'
-alias frk='flux reconcile kustomizations'
-
-# Git
-alias gcl="git clone"
-alias gst="git status"
-alias gl="git pull"
-alias gp="git push"
-alias gd="git diff | subl"
-alias gc="git commit -v"
-alias gca="git commit -v -a"
-alias gb="git branch"
-alias gba="git branch -a"
-alias gcam="git commit -am"
-alias gbb="git branch -b"
-
-# Hidden File Visibility
-alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
-alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-
-# Case-Insensitive Auto Completion
-bind "set completion-ignore-case on"
-
-# Postgres
-export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
-
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-#export PATH="/Users/kmorris/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT
-
-### To add Homebrew to your PATH, add to your shell profile (e.g. ~/.bash_profile or ~/.zprofile):
-eval "$(/opt/homebrew/bin/brew shellenv)"
-###  (on Apple Silicon)
-
-# Setting PATH for Python 3.13
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.13/bin:${PATH}"
-export PATH
-
-#bash_completion v2
-export BREW_PREFIX="$(brew --prefix)"
-[[ -r "${BREW_PREFIX}/etc/profile.d/bash_completion.sh" ]] && source "${BREW_PREFIX}/etc/profile.d/bash_completion.sh"
-
 #kubectl completion
 alias k="kubectl"
 complete -o default -F __start_kubectl k
 source <(kubectl completion bash)
 
-#chruby
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby ruby-3.4.4
-
-#bash BAE baby
-echo "bash $BASH_VERSION"
-source $HOME/.bashcommands.sh
-
 # Source .bashrc if it exists
 if [ -f "$HOME/.bashrc" ]; then
   source "$HOME/.bashrc"
 fi
-
-# RVM
-# Mandatory loading of RVM into the shell
-# This must be the last line of your bash_profile always
-[[ -s "/Users/$USER/.rvm/scripts/rvm" ]] && source "/Users/$USER/.rvm/scripts/rvm" # This loads RVM into a shell session.
