@@ -5,12 +5,12 @@ export EDITOR="nvim"
 
 #directories
 export DEV="$HOME/Devops"
-export REPOS="$HOME/Devops/Repos"
+export REPOS="$HOME/DevOps/Repos"
 export PI="$HOME/DevOps/Repos/github/pi-cluster"
 export BLOG="$HOME/DevOps/Repos/github/blog"
 export HOMELAB="$HOME/DevOps/Repos/github/homelab"
-export GITHUB="$HOME/Devops/Repos/github"
-export SECONDBRAIN="$HOME/Obsidian/second-brain"
+export GITHUB="$HOME/DevOps/Repos/github"
+export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"
 export CLONE="$HOME/DevOps/Repos/clone"
 
 #XDG

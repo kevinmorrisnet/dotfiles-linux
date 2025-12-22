@@ -1,0 +1,44 @@
+# Aliases
+
+# ls
+alias ls='ls --color=auto'
+alias ll='ls -la'
+alias la='ls -lah'
+
+#CLI
+alias c='clear'
+alias v='vim'
+alias t='tmux'
+alias e='exit'
+
+#Directories defined in Environment Variables using export
+alias repo='cd $REPOS'
+alias dev='cd $DEV'
+alias pi='cd $PI'
+alias blog='cd $BLOG'
+alias home='cd $HOMELAB'
+alias github='cd $GITHUB'
+alias sb='cd $SECONDBRAIN'
+alias clone='cd $CLONE'
+
+#K8S
+alias k='kubectl'
+alias kgp='kubectl get pods'
+alias kga='kubectl get all'
+
+#Flux
+alias fgk='flux get kustomizations'
+alias frk='flux reconcile kustomizations'
+
+# Git
+alias gcl="git clone"
+alias gst="git status"
+alias gl="git pull"
+alias gp="git push"
+alias gd="git diff | subl"
+alias gc="git commit -v"
+alias gca="git commit -v -a"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gcam="git commit -am"
+alias gbb="git branch -b"

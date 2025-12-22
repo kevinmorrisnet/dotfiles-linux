@@ -117,4 +117,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+complete -o default -F __start_kubectl k
 source <(kubectl completion bash)
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export GOPATH=~/go
