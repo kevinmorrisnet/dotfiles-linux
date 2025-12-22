@@ -117,10 +117,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#kubectl completion
 complete -o default -F __start_kubectl k
 source <(kubectl completion bash)
 
+#GO Path
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export GOPATH=~/go
 
-. <(flux completion bash)
+# Flux completion bash
+command -v flux >/dev/null && . <(flux completion bash)

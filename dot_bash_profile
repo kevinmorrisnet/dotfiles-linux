@@ -22,6 +22,8 @@ alias k="kubectl"
 complete -o default -F __start_kubectl k
 source <(kubectl completion bash)
 
+. <(flux completion bash)
+
 # Source .bashrc if it exists
 if [ -f "$HOME/.bashrc" ]; then
   source "$HOME/.bashrc"
