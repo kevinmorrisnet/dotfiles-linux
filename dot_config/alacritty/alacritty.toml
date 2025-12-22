@@ -1,4 +1,3 @@
-[general]
 # themes from https://github.com/alacritty/alacritty-theme
 import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 
@@ -28,9 +27,11 @@ dimensions = { columns = 120, lines = 80 }
 x = 7
 y = 0
 
-[terminal]
+[shell]
+#[terminal]
 #mac
 #shell ={ program = "/opt/homebrew/bin/tmux", args = ["new", "-A", "-D", "-s", "main"] }
 
 #linux
-shell = { program = "/usr/bin/tmux", args = ["new", "-A", "-D", "-s", "main"] }
+program = "/usr/bin/tmux"
+args = ["new", "-A", "-D", "-s", "main"]
