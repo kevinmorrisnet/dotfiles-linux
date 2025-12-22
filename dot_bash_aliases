@@ -2,12 +2,11 @@
 
 # ls
 alias ls='ls --color=auto'
-alias ll='ls -la'
-alias la='ls -lah'
+alias ll='ls -lah'
 
 #CLI
 alias c='clear'
-alias v='vim'
+alias v='nvim'
 alias t='tmux'
 alias e='exit'
 
