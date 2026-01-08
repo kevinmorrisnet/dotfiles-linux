@@ -5,10 +5,10 @@ import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 TERM = "xterm-256color"
 
 [font]
-size = 23
+size = 20
 
 [font.normal]
-# family = "Berkeley Mono Trial"
+#family = "Berkeley Mono Trial"
 family = "UbuntuMono Nerd Font"
 #family = "CaskaydiaMono Nerd Font"
 #family = "FiraMono Nerd Font"
@@ -18,7 +18,7 @@ family = "UbuntuMono Nerd Font"
 
 [window]
 decorations = "Full"
-position = { x = 10, y = 10 } # (has no effect on Wayland)
+position = { x = 10, y = 10 }              # (has no effect on Wayland)
 dimensions = { columns = 120, lines = 80 }
 # opacity = 1.0
 # blur = true
