@@ -128,4 +128,4 @@ export GOPATH=~/go
 # Flux completion bash
 command -v flux >/dev/null && . <(flux completion bash)
 
-eval "$(mise activate bash)"
+#eval "$(mise activate bash)"
