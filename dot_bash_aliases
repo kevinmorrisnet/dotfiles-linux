@@ -19,6 +19,7 @@ alias home='cd $HOMELAB'
 alias github='cd $GITHUB'
 alias sb='cd $SECONDBRAIN'
 alias clone='cd $CLONE'
+alias scr='cd $SCRIPTS'
 
 #K8S
 alias k='kubectl'

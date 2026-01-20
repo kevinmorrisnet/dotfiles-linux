@@ -13,9 +13,13 @@ export HOMELAB="$HOME/DevOps/Repos/github/homelab"
 export GITHUB="$HOME/DevOps/Repos/github"
 export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"
 export CLONE="$HOME/DevOps/Repos/clone"
+export SCRIPTS="$HOME/.scripts"
 
 #XDG
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
+
+#PATH
+export PATH=$PATH:$HOME/.scripts
 
 #kubectl completion
 alias k="kubectl"
