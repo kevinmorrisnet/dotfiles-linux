@@ -14,6 +14,7 @@ export GITHUB="$HOME/DevOps/Repos/github"
 export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"
 export CLONE="$HOME/DevOps/Repos/clone"
 export SCRIPTS="$HOME/.scripts"
+export LAB="$HOME/DevOps/Repos/github/lab"
 
 #XDG
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
