@@ -1,0 +1,11 @@
+pod_name="${mealie*}"
+namespace="mealie"
+
+while true; do
+  status=$(kubectl get pod $pod_name -n $namespace --no-headers -o custom-columns=":status.phase")
+  if [[ "$status" == "Running" ]]; then
+    break
+  else
+    echo "waiting for pod $pod_name to get into a running state."
+    sleep 1
+  fi
