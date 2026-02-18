@@ -1,9 +1,25 @@
 #!/bin/bash
-echo -e "\nUpdating packages...\n"
+echo -e "\nUpdating APT Repository...\n"
 sleep 2
-sudo apt update -y && sudo apt upgrade -y
-#echo -e "\nRemoving unused packages...\n"
-#sleep 2
-#sudo apt autoremove -y && sudo apt clean -y
+sudo apt update -y
+sleep 2
+echo -e "\nAPT Repository has been updated...\n"
+sleep 2
+echo -e "\nListing upgradeable packages...\n"
+apt list --upgradeable
+sleep 5
+echo -e "\nUpgrading available packages...\n"
+sudo apt upgrade -y
+sleep 2
+echo -e "\nAvailable packages have been upgraded...\n"
+sleep 2
+echo -e "\nRemoving unused packages...\n"
+sudo apt autoremove -y
+echo -e "\nUnused packages have been removed...\n"
+sleep 2
+echo -e "\nCleaning APT cache...\n"
+sudo apt clean -y
+sleep 2
+echo -e "\nAPT cache is clean...\n"
 sleep 2
 echo -e "\nComplete.\n"
