@@ -1,6 +1,4 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
 
 # If not running interactively, don't do anything
 case $- in
@@ -116,13 +114,44 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#kubectl completion
-complete -o default -F __start_kubectl k
-source <(kubectl completion bash)
+#
+#MY CUSTOM STARTS HERE
+#
+
+# Environment Variables
+
+# Editors
+export EDITOR="vim"
+export VISUAL="vim"
+
+#directories
+export DEV="$HOME/Devops"
+export REPOS="$HOME/DevOps/Repos"
+export PI="$HOME/DevOps/Repos/github/pi-cluster"
+export BLOG="$HOME/DevOps/Repos/github/blog"
+export HOMELAB="$HOME/DevOps/Repos/github/homelab"
+export GITHUB="$HOME/DevOps/Repos/github"
+export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"
+export CLONE="$HOME/DevOps/Repos/clone"
+export SCRIPTS="$HOME/.scripts"
+export LAB="$HOME/DevOps/Repos/github/lab"
+
+#XDG
+export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
+
+#PATH
+export PATH=$PATH:$HOME/.scripts
 
 #GO Path
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export GOPATH=~/go
+
+#kubectl completion
+source <(kubectl completion bash)
+complete -o default -F __start_kubectl k
+
+#kubectl export
+export do="--dry-run=client -o yaml"
 
 # Flux completion bash
 command -v flux >/dev/null && . <(flux completion bash)

@@ -1,35 +1,3 @@
-# Environment Variables
-
-# Editors
-export EDITOR="nvim"
-export VISUAL="nvim"
-
-#directories
-export DEV="$HOME/Devops"
-export REPOS="$HOME/DevOps/Repos"
-export PI="$HOME/DevOps/Repos/github/pi-cluster"
-export BLOG="$HOME/DevOps/Repos/github/blog"
-export HOMELAB="$HOME/DevOps/Repos/github/homelab"
-export GITHUB="$HOME/DevOps/Repos/github"
-export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"
-export CLONE="$HOME/DevOps/Repos/clone"
-export SCRIPTS="$HOME/.scripts"
-export LAB="$HOME/DevOps/Repos/github/lab"
-
-#XDG
-export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
-
-#PATH
-export PATH=$PATH:$HOME/.scripts
-
-#kubectl completion
-alias k="kubectl"
-complete -o default -F __start_kubectl k
-source <(kubectl completion bash)
-
-#flux completion
-command -v flux >/dev/null && . <(flux completion bash)
-
 # Source .bashrc if it exists
 if [ -f "$HOME/.bashrc" ]; then
   source "$HOME/.bashrc"

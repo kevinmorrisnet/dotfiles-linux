@@ -1,0 +1,155 @@
+[1mdiff --git a/dot_bash_aliases b/dot_bash_aliases[m
+[1mindex 01c14d5..f1abc43 100644[m
+[1m--- a/dot_bash_aliases[m
+[1m+++ b/dot_bash_aliases[m
+[36m@@ -3,12 +3,14 @@[m
+ # ls[m
+ alias ls='ls --color=auto'[m
+ alias ll='ls -lah'[m
+[32m+[m[32malias lt='ls -lath'[m
+ [m
+ #CLI[m
+ alias c='clear'[m
+[31m-alias v='nvim'[m
+[32m+[m[32malias v='vim'[m
+ alias t='tmux'[m
+ alias e='exit'[m
+[32m+[m[32malias n='nvim'[m
+ [m
+ #Directories defined in Environment Variables using export[m
+ alias repo='cd $REPOS'[m
+[36m@@ -25,21 +27,24 @@[m [malias lab='cd $LAB'[m
+ #K8S[m
+ alias k='kubectl'[m
+ alias kgp='kubectl get pods'[m
+[32m+[m[32malias kgpa='kubectl get pods --all-namespaces'[m
+ alias kga='kubectl get all'[m
+[32m+[m[32malias ksc='kubectl config set-context --current --namespace'[m
+[32m+[m[32malias kgn='kubectl get nodes'[m
+ [m
+ #Flux[m
+ alias fgk='flux get kustomizations'[m
+[31m-alias frk='flux reconcile kustomizations'[m
+[32m+[m[32malias frk='flux reconcile kustomization'[m
+ [m
+ # Git[m
+[31m-alias gcl="git clone"[m
+[31m-alias gst="git status"[m
+[31m-alias gl="git pull"[m
+[31m-alias gp="git push"[m
+[31m-alias gd="git diff | subl"[m
+[31m-alias gc="git commit -v"[m
+[31m-alias gca="git commit -v -a"[m
+[32m+[m[32malias gaa="git add ."[m
+ alias gb="git branch"[m
+ alias gba="git branch -a"[m
+[31m-alias gcam="git commit -am"[m
+[31m-alias gbb="git branch -b"[m
+[32m+[m[32malias gcl="git clone"[m
+[32m+[m[32malias gcm="git commit -m"[m
+[32m+[m[32malias gd="git diff"[m
+[32m+[m[32malias gpl="git pull"[m
+[32m+[m[32malias gp="git push"[m
+[32m+[m[32malias gs="git switch"[m
+[32m+[m[32malias gsc="git switch -c"[m
+[32m+[m[32malias gst="git status"[m
+[1mdiff --git a/dot_bash_profile b/dot_bash_profile[m
+[1mindex e45aceb..39fb169 100644[m
+[1m--- a/dot_bash_profile[m
+[1m+++ b/dot_bash_profile[m
+[36m@@ -1,35 +1,3 @@[m
+[31m-# Environment Variables[m
+[31m-[m
+[31m-# Editors[m
+[31m-export EDITOR="nvim"[m
+[31m-export VISUAL="nvim"[m
+[31m-[m
+[31m-#directories[m
+[31m-export DEV="$HOME/Devops"[m
+[31m-export REPOS="$HOME/DevOps/Repos"[m
+[31m-export PI="$HOME/DevOps/Repos/github/pi-cluster"[m
+[31m-export BLOG="$HOME/DevOps/Repos/github/blog"[m
+[31m-export HOMELAB="$HOME/DevOps/Repos/github/homelab"[m
+[31m-export GITHUB="$HOME/DevOps/Repos/github"[m
+[31m-export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"[m
+[31m-export CLONE="$HOME/DevOps/Repos/clone"[m
+[31m-export SCRIPTS="$HOME/.scripts"[m
+[31m-export LAB="$HOME/DevOps/Repos/github/lab"[m
+[31m-[m
+[31m-#XDG[m
+[31m-export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}[m
+[31m-[m
+[31m-#PATH[m
+[31m-export PATH=$PATH:$HOME/.scripts[m
+[31m-[m
+[31m-#kubectl completion[m
+[31m-alias k="kubectl"[m
+[31m-complete -o default -F __start_kubectl k[m
+[31m-source <(kubectl completion bash)[m
+[31m-[m
+[31m-#flux completion[m
+[31m-command -v flux >/dev/null && . <(flux completion bash)[m
+[31m-[m
+ # Source .bashrc if it exists[m
+ if [ -f "$HOME/.bashrc" ]; then[m
+   source "$HOME/.bashrc"[m
+[1mdiff --git a/dot_bashrc b/dot_bashrc[m
+[1mindex c1c3cfb..749db47 100644[m
+[1m--- a/dot_bashrc[m
+[1m+++ b/dot_bashrc[m
+[36m@@ -1,6 +1,4 @@[m
+ # ~/.bashrc: executed by bash(1) for non-login shells.[m
+[31m-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[m
+[31m-# for examples[m
+ [m
+ # If not running interactively, don't do anything[m
+ case $- in[m
+[36m@@ -116,14 +114,45 @@[m [mif ! shopt -oq posix; then[m
+   fi[m
+ fi[m
+ [m
+[31m-#kubectl completion[m
+[31m-complete -o default -F __start_kubectl k[m
+[31m-source <(kubectl completion bash)[m
+[32m+[m[32m#[m
+[32m+[m[32m#MY CUSTOM STARTS HERE[m
+[32m+[m[32m#[m
+[32m+[m
+[32m+[m[32m# Environment Variables[m
+[32m+[m
+[32m+[m[32m# Editors[m
+[32m+[m[32mexport EDITOR="vim"[m
+[32m+[m[32mexport VISUAL="vim"[m
+[32m+[m
+[32m+[m[32m#directories[m
+[32m+[m[32mexport DEV="$HOME/Devops"[m
+[32m+[m[32mexport REPOS="$HOME/DevOps/Repos"[m
+[32m+[m[32mexport PI="$HOME/DevOps/Repos/github/pi-cluster"[m
+[32m+[m[32mexport BLOG="$HOME/DevOps/Repos/github/blog"[m
+[32m+[m[32mexport HOMELAB="$HOME/DevOps/Repos/github/homelab"[m
+[32m+[m[32mexport GITHUB="$HOME/DevOps/Repos/github"[m
+[32m+[m[32mexport SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"[m
+[32m+[m[32mexport CLONE="$HOME/DevOps/Repos/clone"[m
+[32m+[m[32mexport SCRIPTS="$HOME/.scripts"[m
+[32m+[m[32mexport LAB="$HOME/DevOps/Repos/github/lab"[m
+[32m+[m
+[32m+[m[32m#XDG[m
+[32m+[m[32mexport XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}[m
+[32m+[m
+[32m+[m[32m#PATH[m
+[32m+[m[32mexport PATH=$PATH:$HOME/.scripts[m
+ [m
+ #GO Path[m
+ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"[m
+ export GOPATH=~/go[m
+ [m
+[32m+[m[32m#kubectl completion[m
+[32m+[m[32msource <(kubectl completion bash)[m
+[32m+[m[32mcomplete -o default -F __start_kubectl k[m
+[32m+[m
+[32m+[m[32m#kubectl export[m
+[32m+[m[32mexport do="--dry-run=client -o yaml"[m
+[32m+[m
+ # Flux completion bash[m
+ command -v flux >/dev/null && . <(flux completion bash)[m
+ [m

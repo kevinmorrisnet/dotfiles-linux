@@ -3,12 +3,14 @@
 # ls
 alias ls='ls --color=auto'
 alias ll='ls -lah'
+alias lt='ls -lath'
 
 #CLI
 alias c='clear'
-alias v='nvim'
+alias v='vim'
 alias t='tmux'
 alias e='exit'
+alias n='nvim'
 
 #Directories defined in Environment Variables using export
 alias repo='cd $REPOS'
@@ -25,21 +27,24 @@ alias lab='cd $LAB'
 #K8S
 alias k='kubectl'
 alias kgp='kubectl get pods'
+alias kgpa='kubectl get pods --all-namespaces'
 alias kga='kubectl get all'
+alias ksc='kubectl config set-context --current --namespace'
+alias kgn='kubectl get nodes'
 
 #Flux
 alias fgk='flux get kustomizations'
-alias frk='flux reconcile kustomizations'
+alias frk='flux reconcile kustomization'
 
 # Git
-alias gcl="git clone"
-alias gst="git status"
-alias gl="git pull"
-alias gp="git push"
-alias gd="git diff | subl"
-alias gc="git commit -v"
-alias gca="git commit -v -a"
+alias gaa="git add ."
 alias gb="git branch"
 alias gba="git branch -a"
-alias gcam="git commit -am"
-alias gbb="git branch -b"
+alias gcl="git clone"
+alias gcm="git commit -m"
+alias gd="git diff"
+alias gpl="git pull"
+alias gp="git push"
+alias gs="git switch"
+alias gsc="git switch -c"
+alias gst="git status"
