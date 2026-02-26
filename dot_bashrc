@@ -144,4 +144,8 @@ export do="--dry-run=client -o yaml"
 # Flux completion bash
 command -v flux >/dev/null && . <(flux completion bash)
 
+#helm completion
+source <(helm completion bash)
+
+#activate mise
 eval "$(~/.local/bin/mise activate bash)"
