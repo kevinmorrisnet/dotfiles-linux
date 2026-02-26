@@ -35,6 +35,7 @@ alias kgp='kubectl get pods'
 alias kgpa='kubectl get pods --all-namespaces'
 alias kga='kubectl get all'
 alias ksc='kubectl config set-context --current --namespace'
+alias kgc='kubectl config get-context'
 alias kgn='kubectl get nodes'
 
 #Flux
@@ -43,13 +44,13 @@ alias frk='flux reconcile kustomization'
 
 # Git
 alias gaa="git add ."
-alias gb="git branch"
+alias gbr="git branch"
 alias gba="git branch -a"
 alias gcl="git clone"
 alias gcm="git commit -m"
-alias gd="git diff"
+alias gdf="git diff"
 alias gpl="git pull"
-alias gp="git push"
-alias gs="git switch"
+alias gpu="git push"
+alias gsw="git switch"
 alias gsc="git switch -c"
 alias gst="git status"
