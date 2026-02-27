@@ -25,4 +25,4 @@ sleep 2
 echo -e "\nUpgrading Mise packages...\n"
 mise upgrade
 sleep 2
-echo -e "\nSytem Update Complete.\n"
+echo -e "\nSystem Update Complete.\n"

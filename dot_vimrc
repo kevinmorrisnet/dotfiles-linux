@@ -10,7 +10,6 @@ filetype indent on
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set number
 
 " Highlight trailing whitespace in all files
 autocmd BufRead,BufNewFile * match Error /\s\+$/

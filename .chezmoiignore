@@ -1,2 +1,3 @@
 setup
 .kube/config
+.config/nvim/lazy-lock.json
