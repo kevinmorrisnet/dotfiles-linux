@@ -147,5 +147,8 @@ command -v flux >/dev/null && . <(flux completion bash)
 #helm completion
 source <(helm completion bash)
 
+#restic
+export RESTIC_PASSWORD_FILE="$HOME/.restic-password"
+
 #activate mise
 eval "$(~/.local/bin/mise activate bash)"
