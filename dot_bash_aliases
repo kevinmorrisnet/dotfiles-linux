@@ -28,6 +28,7 @@ alias sb='cd $SECONDBRAIN'
 alias clone='cd $CLONE'
 alias scr='cd $SCRIPTS'
 alias lab='cd $LAB'
+alias master='cd $MASTER'
 
 #K8S
 alias k='kubectl'
