@@ -8,30 +8,17 @@ TERM = "xterm-256color"
 size = 20
 
 [font.normal]
-#family = "Berkeley Mono Trial"
 family = "UbuntuMono Nerd Font"
-#family = "CaskaydiaMono Nerd Font"
-#family = "FiraMono Nerd Font"
-#family = "IosevkaTerm Nerd Font Mono"
-#family = "JetBrainsMono Nerd Font"
-#family = "Hack Nerd Font Mono"
 
 [window]
 decorations = "Full"
-position = { x = 10, y = 10 }              # (has no effect on Wayland)
+position = { x = 10, y = 10 }
 dimensions = { columns = 120, lines = 80 }
-# opacity = 1.0
-# blur = true
 
 [window.padding]
 x = 7
 y = 0
 
 [shell]
-#[terminal]
-#mac
-#shell ={ program = "/opt/homebrew/bin/tmux", args = ["new", "-A", "-D", "-s", "main"] }
-
-#linux
 program = "/usr/bin/tmux"
 args = ["new", "-A", "-D", "-s", "main"]
