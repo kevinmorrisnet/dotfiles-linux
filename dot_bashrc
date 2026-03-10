@@ -132,24 +132,23 @@ export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
 export PATH=$PATH:$HOME/.scripts
 
 #GO Path
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export GOPATH=~/go
-
-#kubectl completion
-source <(kubectl completion bash)
-complete -o default -F __start_kubectl k
 
 #kubectl export
 export do="--dry-run=client -o yaml"
-
-# Flux completion bash
-command -v flux >/dev/null && . <(flux completion bash)
-
-#helm completion
-source <(helm completion bash)
 
 #restic
 export RESTIC_PASSWORD_FILE="$HOME/.restic-password"
 
 #activate mise
 eval "$(~/.local/bin/mise activate bash)"
+
+#kubectl completion
+source <(kubectl completion bash)
+complete -o default -F __start_kubectl k
+
+# Flux completion bash
+command -v flux >/dev/null && . <(flux completion bash)
+
+#helm completion
+source <(helm completion bash)
