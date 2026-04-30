@@ -12,10 +12,9 @@ alias egrep='egrep --color=auto'
 
 #CLI
 alias c='clear'
-alias v='vim'
 alias t='tmux'
 alias e='exit'
-alias n='nvim'
+alias v='nvim'
 
 #Directories defined in Environment Variables using export
 alias repo='cd $REPOS'
@@ -29,6 +28,8 @@ alias clone='cd $CLONE'
 alias scr='cd $SCRIPTS'
 alias lab='cd $LAB'
 alias master='cd $MASTER'
+alias down='cd $DOWN'
+
 
 #K8S
 alias k='kubectl'

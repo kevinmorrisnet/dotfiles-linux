@@ -2,7 +2,8 @@
 set -euo pipefail
 
 # Alacritty + curl
-sudo apt install -y alacritty curl
+sudo apt install -y curl
+sudo snap install alacritty --classic
 
 # Alacritty Themes
 if [ ! -d ~/.config/alacritty/themes ]; then
@@ -23,3 +24,7 @@ curl -L -o devpod "https://github.com/loft-sh/devpod/releases/latest/download/de
 
 # Azure CLI
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+curl -sSfL \
+  https://github.com/cloudnative-pg/cloudnative-pg/raw/main/hack/install-cnpg-plugin.sh | \
+  sudo sh -s -- -b /usr/local/bin
