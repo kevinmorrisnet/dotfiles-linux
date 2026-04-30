@@ -29,6 +29,7 @@ alias scr='cd $SCRIPTS'
 alias lab='cd $LAB'
 alias master='cd $MASTER'
 alias down='cd $DOWN'
+alias devcon='cd $DEVCON'
 
 
 #K8S
