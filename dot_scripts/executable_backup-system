@@ -1,0 +1,22 @@
+#!/bin/bash
+export RESTIC_REPOSITORY="sftp:nas:/backups/ubuntu-7050/system"
+export RESTIC_PASSWORD_FILE="$HOME/.restic-password"
+
+sudo -E restic backup / \
+  --exclude=/proc \
+  --exclude=/sys \
+  --exclude=/dev \
+  --exclude=/run \
+  --exclude=/tmp \
+  --exclude=/var/tmp \
+  --exclude=/mnt \
+  --exclude=/media \
+  --exclude=/lost+found \
+  --one-file-system \
+  --verbose
+
+sudo -E restic forget \
+  --keep-daily 7 \
+  --keep-weekly 4 \
+  --keep-monthly 6 \
+  --prune

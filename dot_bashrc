@@ -126,6 +126,7 @@ export LAB="$HOME/DevOps/Repos/github/lab"
 export MASTER="$HOME/DevOps/Repos/github/masterclass"
 export DOWN="$HOME/Downloads"
 export DEVCON="$HOME/DevOps/Repos/github/devcontainers"
+export JOBS="$HOME/DevOps/Jobs/manual_jobs"
 
 #XDG
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}

@@ -1,0 +1,4434 @@
+/bin/sh: 1: /home/kevin/.scripts/backup-system.sh: not found
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+open repository
+lock repository
+using parent snapshot fd0aa7e8
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.531s: 327113 files, 56.407 GiB
+
+Files:         182 new,  2494 changed, 324437 unmodified
+Dirs:            0 new,   468 changed, 43448 unmodified
+Data Blobs:    627 new
+Tree Blobs:    458 new
+Added to the repository: 246.231 MiB (89.719 MiB stored)
+
+processed 327113 files, 56.407 GiB in 0:18
+snapshot 99575fc6 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 5 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+6d634266  2026-03-10 03:17:49  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+fd0aa7e8  2026-03-17 16:22:44  ubuntu-7050              daily snapshot    /
+99575fc6  2026-03-18 03:00:02  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+5 snapshots
+
+open repository
+lock repository
+using parent snapshot 99575fc6
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.690s: 327122 files, 56.658 GiB
+
+Files:          78 new,  4586 changed, 322458 unmodified
+Dirs:           29 new,   212 changed, 43677 unmodified
+Data Blobs:    539 new
+Tree Blobs:    203 new
+Added to the repository: 479.854 MiB (281.140 MiB stored)
+
+processed 327122 files, 56.658 GiB in 0:28
+snapshot da842a94 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 6 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+6d634266  2026-03-10 03:17:49  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+fd0aa7e8  2026-03-17 16:22:44  ubuntu-7050              daily snapshot    /
+99575fc6  2026-03-18 03:00:02  ubuntu-7050              daily snapshot    /
+da842a94  2026-03-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+6 snapshots
+
+open repository
+lock repository
+using parent snapshot da842a94
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.572s: 324816 files, 58.982 GiB
+
+Files:        9092 new, 11237 changed, 304487 unmodified
+Dirs:          319 new,  1560 changed, 42352 unmodified
+Data Blobs:  11962 new
+Tree Blobs:   1709 new
+Added to the repository: 2.619 GiB (1.795 GiB stored)
+
+processed 324816 files, 58.982 GiB in 2:14
+snapshot 78145df0 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 7 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+6d634266  2026-03-10 03:17:49  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+fd0aa7e8  2026-03-17 16:22:44  ubuntu-7050              daily snapshot    /
+99575fc6  2026-03-18 03:00:02  ubuntu-7050              daily snapshot    /
+da842a94  2026-03-19 03:00:01  ubuntu-7050              daily snapshot    /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+7 snapshots
+
+open repository
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+open repository
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+open repository
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+open repository
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+subprocess ssh: ssh: Could not resolve hostname ugreen.local: Name or service not known
+Fatal: unable to open repository at sftp:nas:/backups/ubuntu-7050/system: unable to start the sftp session, error: error receiving version packet from server: server unexpectedly closed connection: unexpected EOF
+open repository
+lock repository
+using parent snapshot 283aaa5f
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 5.212s: 248987 files, 25.201 GiB
+
+Files:           6 new,   189 changed, 248792 unmodified
+Dirs:            0 new,   126 changed, 31427 unmodified
+Data Blobs:    116 new
+Tree Blobs:     87 new
+Added to the repository: 49.328 MiB (11.289 MiB stored)
+
+processed 248987 files, 25.201 GiB in 0:15
+snapshot 9c6d9242 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 9 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              weekly snapshot   /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+fd0aa7e8  2026-03-17 16:22:44  ubuntu-7050              daily snapshot    /
+99575fc6  2026-03-18 03:00:02  ubuntu-7050              daily snapshot    /
+da842a94  2026-03-19 03:00:01  ubuntu-7050              daily snapshot    /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+283aaa5f  2026-03-24 22:45:12  ubuntu-7050              daily snapshot    /
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+9 snapshots
+
+open repository
+lock repository
+using parent snapshot 9c6d9242
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.484s: 249424 files, 25.510 GiB
+
+Files:         453 new, 10507 changed, 238464 unmodified
+Dirs:           62 new,  1300 changed, 30245 unmodified
+Data Blobs:   1393 new
+Tree Blobs:   1323 new
+Added to the repository: 742.531 MiB (356.808 MiB stored)
+
+processed 249424 files, 25.510 GiB in 0:31
+snapshot 041064d0 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              weekly snapshot   /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+fd0aa7e8  2026-03-17 16:22:44  ubuntu-7050              daily snapshot    /
+99575fc6  2026-03-18 03:00:02  ubuntu-7050              daily snapshot    /
+da842a94  2026-03-19 03:00:01  ubuntu-7050              daily snapshot    /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+283aaa5f  2026-03-24 22:45:12  ubuntu-7050              daily snapshot    /
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              daily snapshot    /
+041064d0  2026-03-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+open repository
+lock repository
+using parent snapshot 041064d0
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.748s: 249449 files, 25.295 GiB
+
+Files:          38 new,  5012 changed, 244399 unmodified
+Dirs:            4 new,   353 changed, 31251 unmodified
+Data Blobs:    598 new
+Tree Blobs:    309 new
+Added to the repository: 418.871 MiB (155.148 MiB stored)
+
+processed 249449 files, 25.295 GiB in 0:17
+snapshot 8fb681ec saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              weekly snapshot   /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+99575fc6  2026-03-18 03:00:02  ubuntu-7050              daily snapshot    /
+da842a94  2026-03-19 03:00:01  ubuntu-7050              daily snapshot    /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+283aaa5f  2026-03-24 22:45:12  ubuntu-7050              daily snapshot    /
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              daily snapshot    /
+041064d0  2026-03-26 03:00:01  ubuntu-7050              daily snapshot    /
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+fd0aa7e8  2026-03-17 16:22:44  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:04] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2474 / 2474 packs processed
+
+
+to repack:          6766 blobs / 7.197 MiB
+this removes:        170 blobs / 2.370 MiB
+to delete:             0 blobs / 0 B
+total prune:         170 blobs / 2.370 MiB
+remaining:        418315 blobs / 40.352 GiB
+unused size after prune: 68.906 MiB (0.17% of remaining size)
+
+repacking packs
+[0:01] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2474 / 2474 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  15 / 15 files deleted
+
+removing 1 old packs
+[0:00] 100.00%  1 / 1 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 8fb681ec
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.488s: 249447 files, 25.046 GiB
+
+Files:           2 new,  4533 changed, 244912 unmodified
+Dirs:            0 new,   154 changed, 31454 unmodified
+Data Blobs:    253 new
+Tree Blobs:    126 new
+Added to the repository: 149.870 MiB (54.153 MiB stored)
+
+processed 249447 files, 25.046 GiB in 0:14
+snapshot 693b0a4e saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              weekly snapshot   /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+da842a94  2026-03-19 03:00:01  ubuntu-7050              daily snapshot    /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+283aaa5f  2026-03-24 22:45:12  ubuntu-7050              daily snapshot    /
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              daily snapshot    /
+041064d0  2026-03-26 03:00:01  ubuntu-7050              daily snapshot    /
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              daily snapshot    /
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+99575fc6  2026-03-18 03:00:02  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:04] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2479 / 2479 packs processed
+
+
+to repack:          7054 blobs / 7.514 MiB
+this removes:        171 blobs / 633.828 KiB
+to delete:           113 blobs / 32.053 MiB
+total prune:         284 blobs / 32.672 MiB
+remaining:        418410 blobs / 40.373 GiB
+unused size after prune: 103.817 MiB (0.25% of remaining size)
+
+repacking packs
+[0:01] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2476 / 2476 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 4 old packs
+[0:00] 100.00%  4 / 4 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 693b0a4e
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.420s: 249449 files, 24.974 GiB
+
+Files:           3 new,  4504 changed, 244942 unmodified
+Dirs:            0 new,   117 changed, 31491 unmodified
+Data Blobs:    146 new
+Tree Blobs:     91 new
+Added to the repository: 82.964 MiB (29.574 MiB stored)
+
+processed 249449 files, 24.974 GiB in 0:13
+snapshot e67631be saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              weekly snapshot   /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+283aaa5f  2026-03-24 22:45:12  ubuntu-7050              daily snapshot    /
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              daily snapshot    /
+041064d0  2026-03-26 03:00:01  ubuntu-7050              daily snapshot    /
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              daily snapshot    /
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              daily snapshot    /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+da842a94  2026-03-19 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:04] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2479 / 2479 packs processed
+
+
+to repack:          7086 blobs / 7.544 MiB
+this removes:       1307 blobs / 3.784 MiB
+to delete:           193 blobs / 81.200 MiB
+total prune:        1500 blobs / 84.984 MiB
+remaining:        417147 blobs / 40.319 GiB
+unused size after prune: 199.849 MiB (0.48% of remaining size)
+
+repacking packs
+[0:01] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:01] 100.00%  2473 / 2473 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 7 old packs
+[0:00] 100.00%  7 / 7 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot e67631be
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.418s: 249448 files, 24.728 GiB
+
+Files:           2 new,  4535 changed, 244911 unmodified
+Dirs:            0 new,   152 changed, 31456 unmodified
+Data Blobs:    155 new
+Tree Blobs:    125 new
+Added to the repository: 91.842 MiB (30.146 MiB stored)
+
+processed 249448 files, 24.728 GiB in 0:13
+snapshot 70359ced saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+283aaa5f  2026-03-24 22:45:12  ubuntu-7050              daily snapshot    /
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              daily snapshot    /
+041064d0  2026-03-26 03:00:01  ubuntu-7050              daily snapshot    /
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              daily snapshot    /
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              daily snapshot    /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+70359ced  2026-03-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+78e88c62  2026-03-01 21:14:47  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:04] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:04] 100.00%  2476 / 2476 packs processed
+
+
+to repack:           133 blobs / 1.327 MiB
+this removes:        117 blobs / 1.316 MiB
+to delete:             0 blobs / 0 B
+total prune:         117 blobs / 1.316 MiB
+remaining:        417310 blobs / 40.347 GiB
+unused size after prune: 233.072 MiB (0.56% of remaining size)
+
+repacking packs
+[0:00] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2476 / 2476 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 1 old packs
+[0:00] 100.00%  1 / 1 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 70359ced
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.462s: 250433 files, 24.706 GiB
+
+Files:         993 new,  5176 changed, 244264 unmodified
+Dirs:           13 new,   276 changed, 31332 unmodified
+Data Blobs:   1311 new
+Tree Blobs:    256 new
+Added to the repository: 245.866 MiB (66.149 MiB stored)
+
+processed 250433 files, 24.706 GiB in 0:14
+snapshot 70808d45 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              daily snapshot    /
+041064d0  2026-03-26 03:00:01  ubuntu-7050              daily snapshot    /
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              daily snapshot    /
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              daily snapshot    /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+70359ced  2026-03-30 03:00:01  ubuntu-7050              daily snapshot    /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+283aaa5f  2026-03-24 22:45:12  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:04] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2481 / 2481 packs processed
+
+
+to repack:         27956 blobs / 21.995 MiB
+this removes:         84 blobs / 144.461 KiB
+to delete:             0 blobs / 0 B
+total prune:          84 blobs / 144.461 KiB
+remaining:        418793 blobs / 40.412 GiB
+unused size after prune: 243.656 MiB (0.59% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:01] 100.00%  2481 / 2481 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 70808d45
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.476s: 250442 files, 24.969 GiB
+
+Files:          29 new,  4716 changed, 245697 unmodified
+Dirs:            4 new,   319 changed, 31301 unmodified
+Data Blobs:    494 new
+Tree Blobs:    242 new
+Added to the repository: 301.061 MiB (128.311 MiB stored)
+
+processed 250442 files, 24.969 GiB in 0:18
+snapshot c3e0ea99 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+041064d0  2026-03-26 03:00:01  ubuntu-7050              daily snapshot    /
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              daily snapshot    /
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              daily snapshot    /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+70359ced  2026-03-30 03:00:01  ubuntu-7050              daily snapshot    /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+9c6d9242  2026-03-25 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:04] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2490 / 2490 packs processed
+
+
+to repack:         27959 blobs / 21.998 MiB
+this removes:       1250 blobs / 2.066 MiB
+to delete:           126 blobs / 32.428 MiB
+total prune:        1376 blobs / 34.494 MiB
+remaining:        418153 blobs / 40.503 GiB
+unused size after prune: 278.622 MiB (0.67% of remaining size)
+
+repacking packs
+[0:04] 100.00%  3 / 3 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2487 / 2487 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 5 old packs
+[0:00] 100.00%  5 / 5 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot c3e0ea99
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.445s: 250445 files, 24.751 GiB
+
+Files:           5 new,  4551 changed, 245889 unmodified
+Dirs:            0 new,   155 changed, 31469 unmodified
+Data Blobs:    376 new
+Tree Blobs:    127 new
+Added to the repository: 256.965 MiB (82.715 MiB stored)
+
+processed 250445 files, 24.751 GiB in 0:15
+snapshot f431dd3a saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              daily snapshot    /
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              daily snapshot    /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+70359ced  2026-03-30 03:00:01  ubuntu-7050              daily snapshot    /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              daily snapshot    /
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+041064d0  2026-03-26 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:04] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2494 / 2494 packs processed
+
+
+to repack:         33811 blobs / 25.806 MiB
+this removes:        300 blobs / 2.091 MiB
+to delete:           134 blobs / 32.137 MiB
+total prune:         434 blobs / 34.227 MiB
+remaining:        418222 blobs / 40.551 GiB
+unused size after prune: 329.476 MiB (0.79% of remaining size)
+
+repacking packs
+[0:03] 100.00%  4 / 4 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2490 / 2490 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 6 old packs
+[0:00] 100.00%  6 / 6 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot f431dd3a
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.553s: 250564 files, 24.981 GiB
+
+Files:       34447 new, 12263 changed, 203854 unmodified
+Dirs:         5332 new,  1302 changed, 24999 unmodified
+Data Blobs:   8454 new
+Tree Blobs:   6579 new
+Added to the repository: 1.050 GiB (596.780 MiB stored)
+
+processed 250564 files, 24.981 GiB in 0:41
+snapshot 4d9bbb8c saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              daily snapshot    /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+70359ced  2026-03-30 03:00:01  ubuntu-7050              daily snapshot    /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              daily snapshot    /
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              daily snapshot    /
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+8fb681ec  2026-03-27 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:05] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2527 / 2527 packs processed
+
+
+to repack:           309 blobs / 2.111 MiB
+this removes:        126 blobs / 549.562 KiB
+to delete:             0 blobs / 0 B
+total prune:         126 blobs / 549.562 KiB
+remaining:        433129 blobs / 41.132 GiB
+unused size after prune: 382.528 MiB (0.91% of remaining size)
+
+repacking packs
+[0:00] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2527 / 2527 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 1 old packs
+[0:00] 100.00%  1 / 1 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 4d9bbb8c
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.427s: 250567 files, 24.983 GiB
+
+Files:           9 new,  4721 changed, 245837 unmodified
+Dirs:            3 new,   216 changed, 31415 unmodified
+Data Blobs:    415 new
+Tree Blobs:    187 new
+Added to the repository: 282.101 MiB (126.614 MiB stored)
+
+processed 250567 files, 24.983 GiB in 0:17
+snapshot 2de5d3b5 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+70359ced  2026-03-30 03:00:01  ubuntu-7050              daily snapshot    /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              daily snapshot    /
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              daily snapshot    /
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              daily snapshot    /
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+693b0a4e  2026-03-28 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:05] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2536 / 2536 packs processed
+
+
+to repack:           309 blobs / 2.108 MiB
+this removes:         91 blobs / 442.958 KiB
+to delete:             0 blobs / 0 B
+total prune:          91 blobs / 442.958 KiB
+remaining:        433640 blobs / 41.256 GiB
+unused size after prune: 411.286 MiB (0.97% of remaining size)
+
+repacking packs
+[0:00] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2535 / 2535 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 2de5d3b5
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.449s: 250598 files, 25.265 GiB
+
+Files:          35 new,  4552 changed, 246011 unmodified
+Dirs:            4 new,   151 changed, 31480 unmodified
+Data Blobs:    421 new
+Tree Blobs:    124 new
+Added to the repository: 324.041 MiB (208.787 MiB stored)
+
+processed 250598 files, 25.265 GiB in 0:22
+snapshot d03b7731 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+6d634266  2026-03-10 03:17:49  ubuntu-7050              weekly snapshot   /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70359ced  2026-03-30 03:00:01  ubuntu-7050              daily snapshot    /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              daily snapshot    /
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              daily snapshot    /
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              daily snapshot    /
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              daily snapshot    /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+open repository
+lock repository
+using parent snapshot d03b7731
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.766s: 250721 files, 25.361 GiB
+
+Files:         130 new,  4640 changed, 245951 unmodified
+Dirs:           26 new,   291 changed, 31344 unmodified
+Data Blobs:    461 new
+Tree Blobs:    250 new
+Added to the repository: 216.801 MiB (75.320 MiB stored)
+
+processed 250721 files, 25.361 GiB in 0:15
+snapshot cc501ed1 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              daily snapshot    /
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              daily snapshot    /
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              daily snapshot    /
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              daily snapshot    /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 2 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+6d634266  2026-03-10 03:17:49  ubuntu-7050              /
+70359ced  2026-03-30 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+2 snapshots
+
+[0:00] 100.00%  2 / 2 files deleted
+
+2 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:05] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2555 / 2555 packs processed
+
+
+to repack:          8226 blobs / 9.515 MiB
+this removes:       1535 blobs / 4.499 MiB
+to delete:             0 blobs / 0 B
+total prune:        1535 blobs / 4.499 MiB
+remaining:        433361 blobs / 41.529 GiB
+unused size after prune: 1.094 GiB (2.63% of remaining size)
+
+repacking packs
+[0:01] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2554 / 2554 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot cc501ed1
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.749s: 251179 files, 25.450 GiB
+
+Files:         462 new,  4648 changed, 246069 unmodified
+Dirs:           41 new,   294 changed, 31367 unmodified
+Data Blobs:    890 new
+Tree Blobs:    263 new
+Added to the repository: 278.388 MiB (106.481 MiB stored)
+
+processed 251179 files, 25.450 GiB in 0:16
+snapshot c68f1466 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              daily snapshot    /
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              daily snapshot    /
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              daily snapshot    /
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              daily snapshot    /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              daily snapshot    /
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+open repository
+lock repository
+using parent snapshot c68f1466
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 6.548s: 251185 files, 25.461 GiB
+
+Files:          15 new,  4554 changed, 246616 unmodified
+Dirs:            3 new,   223 changed, 31479 unmodified
+Data Blobs:    416 new
+Tree Blobs:    154 new
+Added to the repository: 212.648 MiB (69.710 MiB stored)
+
+processed 251185 files, 25.461 GiB in 0:14
+snapshot ab4b922b saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              daily snapshot    /
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              daily snapshot    /
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              daily snapshot    /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              daily snapshot    /
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              daily snapshot    /
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+c3e0ea99  2026-04-01 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:05] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2568 / 2568 packs processed
+
+
+to repack:           242 blobs / 1.980 MiB
+this removes:        122 blobs / 542.092 KiB
+to delete:           131 blobs / 32.395 MiB
+total prune:         253 blobs / 32.925 MiB
+remaining:        434831 blobs / 41.668 GiB
+unused size after prune: 1.118 GiB (2.68% of remaining size)
+
+repacking packs
+[0:00] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2566 / 2566 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 3 old packs
+[0:00] 100.00%  3 / 3 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot ab4b922b
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.757s: 250996 files, 25.678 GiB
+
+Files:         532 new, 36294 changed, 214170 unmodified
+Dirs:           89 new,  4798 changed, 26784 unmodified
+Data Blobs:  14624 new
+Tree Blobs:   4845 new
+Added to the repository: 1.229 GiB (558.771 MiB stored)
+
+processed 250996 files, 25.678 GiB in 0:43
+snapshot a64571be saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              daily snapshot    /
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              daily snapshot    /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              daily snapshot    /
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              daily snapshot    /
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              daily snapshot    /
+a64571be  2026-04-09 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+f431dd3a  2026-04-02 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:05] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2601 / 2601 packs processed
+
+
+to repack:           247 blobs / 1.984 MiB
+this removes:        170 blobs / 1.902 MiB
+to delete:           205 blobs / 48.172 MiB
+total prune:         375 blobs / 50.075 MiB
+remaining:        453925 blobs / 42.164 GiB
+unused size after prune: 1.133 GiB (2.69% of remaining size)
+
+repacking packs
+[0:00] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2597 / 2597 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 5 old packs
+[0:00] 100.00%  5 / 5 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot a64571be
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.487s: 250998 files, 25.466 GiB
+
+Files:           8 new,  4919 changed, 246071 unmodified
+Dirs:            4 new,   233 changed, 31435 unmodified
+Data Blobs:    632 new
+Tree Blobs:    202 new
+Added to the repository: 291.373 MiB (99.875 MiB stored)
+
+processed 250998 files, 25.466 GiB in 0:16
+snapshot 09b54ba2 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              daily snapshot    /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              daily snapshot    /
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              daily snapshot    /
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              daily snapshot    /
+a64571be  2026-04-09 03:00:01  ubuntu-7050              daily snapshot    /
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+4d9bbb8c  2026-04-03 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:05] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2605 / 2605 packs processed
+
+
+to repack:          6656 blobs / 5.958 MiB
+this removes:        168 blobs / 1.634 MiB
+to delete:           132 blobs / 32.277 MiB
+total prune:         300 blobs / 33.912 MiB
+remaining:        454459 blobs / 42.229 GiB
+unused size after prune: 1.174 GiB (2.78% of remaining size)
+
+repacking packs
+[0:01] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2602 / 2602 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 4 old packs
+[0:00] 100.00%  4 / 4 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 09b54ba2
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.487s: 251003 files, 26.227 GiB
+
+Files:           9 new,  4600 changed, 246394 unmodified
+Dirs:            4 new,   195 changed, 31474 unmodified
+Data Blobs:    572 new
+Tree Blobs:    167 new
+Added to the repository: 488.563 MiB (340.317 MiB stored)
+
+processed 251003 files, 26.227 GiB in 0:30
+snapshot e2e0f695 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              daily snapshot    /
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              daily snapshot    /
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              daily snapshot    /
+a64571be  2026-04-09 03:00:01  ubuntu-7050              daily snapshot    /
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              daily snapshot    /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+2de5d3b5  2026-04-04 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:05] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2624 / 2624 packs processed
+
+
+to repack:          6675 blobs / 5.973 MiB
+this removes:        118 blobs / 664.012 KiB
+to delete:             0 blobs / 0 B
+total prune:         118 blobs / 664.012 KiB
+remaining:        455080 blobs / 42.561 GiB
+unused size after prune: 1.221 GiB (2.87% of remaining size)
+
+repacking packs
+[0:01] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2623 / 2623 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot e2e0f695
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.688s: 251094 files, 25.578 GiB
+
+Files:         114 new,  9171 changed, 241809 unmodified
+Dirs:           33 new,   725 changed, 30945 unmodified
+Data Blobs:    779 new
+Tree Blobs:    718 new
+Added to the repository: 376.685 MiB (217.965 MiB stored)
+
+processed 251094 files, 25.578 GiB in 0:21
+snapshot 5472fc79 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+78145df0  2026-03-20 03:00:01  ubuntu-7050              weekly snapshot   /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              daily snapshot    /
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              daily snapshot    /
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              daily snapshot    /
+a64571be  2026-04-09 03:00:01  ubuntu-7050              daily snapshot    /
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              daily snapshot    /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              daily snapshot    /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+open repository
+lock repository
+using parent snapshot 5472fc79
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 3.473s: 251095 files, 25.588 GiB
+
+Files:           3 new,  4630 changed, 246462 unmodified
+Dirs:            0 new,   198 changed, 31505 unmodified
+Data Blobs:    218 new
+Tree Blobs:    168 new
+Added to the repository: 115.470 MiB (36.605 MiB stored)
+
+processed 251095 files, 25.588 GiB in 0:13
+snapshot 334d9e0d saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              daily snapshot    /
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              daily snapshot    /
+a64571be  2026-04-09 03:00:01  ubuntu-7050              daily snapshot    /
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              daily snapshot    /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              daily snapshot    /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 2 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+78145df0  2026-03-20 03:00:01  ubuntu-7050              /
+cc501ed1  2026-04-06 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+2 snapshots
+
+[0:00] 100.00%  2 / 2 files deleted
+
+2 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:04] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2642 / 2642 packs processed
+
+
+to repack:         31632 blobs / 27.542 MiB
+this removes:      14329 blobs / 13.586 MiB
+to delete:         26318 blobs / 1.900 GiB
+total prune:       40647 blobs / 1.913 GiB
+remaining:        416316 blobs / 40.896 GiB
+unused size after prune: 985.433 MiB (2.35% of remaining size)
+
+repacking packs
+[0:03] 100.00%  5 / 5 packs repacked
+
+rebuilding index
+[0:01] 100.00%  2519 / 2519 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 124 old packs
+[0:00] 100.00%  124 / 124 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 334d9e0d
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.488s: 251205 files, 25.585 GiB
+
+Files:         123 new,  5945 changed, 245137 unmodified
+Dirs:           13 new,   374 changed, 31329 unmodified
+Data Blobs:    727 new
+Tree Blobs:    310 new
+Added to the repository: 393.205 MiB (105.616 MiB stored)
+
+processed 251205 files, 25.585 GiB in 0:19
+snapshot 96150fb5 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              daily snapshot    /
+a64571be  2026-04-09 03:00:01  ubuntu-7050              daily snapshot    /
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              daily snapshot    /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              daily snapshot    /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              daily snapshot    /
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+c68f1466  2026-04-07 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:04] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2527 / 2527 packs processed
+
+
+to repack:           263 blobs / 1.842 MiB
+this removes:        151 blobs / 490.277 KiB
+to delete:           127 blobs / 32.256 MiB
+total prune:         278 blobs / 32.735 MiB
+remaining:        417075 blobs / 40.967 GiB
+unused size after prune: 1013.533 MiB (2.42% of remaining size)
+
+repacking packs
+[0:00] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2525 / 2525 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 3 old packs
+[0:00] 100.00%  3 / 3 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 96150fb5
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 9.284s: 329295 files, 29.462 GiB
+
+Files:       78150 new,  7246 changed, 243899 unmodified
+Dirs:        14107 new,   615 changed, 31094 unmodified
+Data Blobs:  53777 new
+Tree Blobs:  12924 new
+Added to the repository: 3.649 GiB (1.432 GiB stored)
+
+processed 329295 files, 29.462 GiB in 1:44
+snapshot c2182a88 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+a64571be  2026-04-09 03:00:01  ubuntu-7050              daily snapshot    /
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              daily snapshot    /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              daily snapshot    /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              daily snapshot    /
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              daily snapshot    /
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+ab4b922b  2026-04-08 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:05] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2616 / 2616 packs processed
+
+
+to repack:         17569 blobs / 15.241 MiB
+this removes:        174 blobs / 1.626 MiB
+to delete:           133 blobs / 32.330 MiB
+total prune:         307 blobs / 33.956 MiB
+remaining:        483469 blobs / 42.363 GiB
+unused size after prune: 1.016 GiB (2.40% of remaining size)
+
+repacking packs
+[0:03] 100.00%  3 / 3 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2612 / 2612 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  4 / 4 files deleted
+
+removing 5 old packs
+[0:00] 100.00%  5 / 5 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot c2182a88
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 11.861s: 347045 files, 31.484 GiB
+
+Files:       18459 new, 11336 changed, 317250 unmodified
+Dirs:         4488 new,  1475 changed, 43976 unmodified
+Data Blobs:   8749 new
+Tree Blobs:   4882 new
+Added to the repository: 2.166 GiB (997.137 MiB stored)
+
+processed 347045 files, 31.484 GiB in 1:11
+snapshot 43f13494 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              daily snapshot    /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              daily snapshot    /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              daily snapshot    /
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              daily snapshot    /
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              daily snapshot    /
+43f13494  2026-04-18 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+a64571be  2026-04-09 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:05] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2674 / 2674 packs processed
+
+
+to repack:         22240 blobs / 18.700 MiB
+this removes:        176 blobs / 1.799 MiB
+to delete:           130 blobs / 32.293 MiB
+total prune:         306 blobs / 34.092 MiB
+remaining:        496794 blobs / 43.303 GiB
+unused size after prune: 1.060 GiB (2.45% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2672 / 2672 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 4 old packs
+[0:00] 100.00%  4 / 4 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 43f13494
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 8.865s: 416649 files, 37.144 GiB
+
+Files:       69609 new,  4935 changed, 342105 unmodified
+Dirs:        12044 new,   316 changed, 49623 unmodified
+Data Blobs:  25477 new
+Tree Blobs:  10068 new
+Added to the repository: 1.740 GiB (840.986 MiB stored)
+
+processed 416649 files, 37.144 GiB in 1:08
+snapshot 2ba6f355 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+e67631be  2026-03-29 03:00:01  ubuntu-7050              weekly snapshot   /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              daily snapshot    /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              daily snapshot    /
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              daily snapshot    /
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              daily snapshot    /
+43f13494  2026-04-18 03:00:01  ubuntu-7050              daily snapshot    /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+09b54ba2  2026-04-10 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2724 / 2724 packs processed
+
+
+to repack:         22203 blobs / 18.871 MiB
+this removes:        160 blobs / 794.070 KiB
+to delete:           125 blobs / 32.142 MiB
+total prune:         285 blobs / 32.918 MiB
+remaining:        532054 blobs / 44.091 GiB
+unused size after prune: 1.102 GiB (2.50% of remaining size)
+
+repacking packs
+[0:04] 100.00%  3 / 3 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2722 / 2722 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 5 old packs
+[0:00] 100.00%  5 / 5 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 2ba6f355
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 13.900s: 350730 files, 34.571 GiB
+
+Files:        8522 new,  4611 changed, 337597 unmodified
+Dirs:         2091 new,   270 changed, 48589 unmodified
+Data Blobs:   1837 new
+Tree Blobs:   1883 new
+Added to the repository: 159.098 MiB (53.092 MiB stored)
+
+processed 350730 files, 34.571 GiB in 0:24
+snapshot 84d5c704 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 10 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              daily snapshot    /
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              daily snapshot    /
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              daily snapshot    /
+43f13494  2026-04-18 03:00:01  ubuntu-7050              daily snapshot    /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+10 snapshots
+
+remove 2 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+e67631be  2026-03-29 03:00:01  ubuntu-7050              /
+e2e0f695  2026-04-11 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+2 snapshots
+
+[0:00] 100.00%  2 / 2 files deleted
+
+2 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 10 snapshots
+[0:06] 100.00%  10 / 10 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2727 / 2727 packs processed
+
+
+to repack:         31253 blobs / 25.973 MiB
+this removes:        356 blobs / 3.358 MiB
+to delete:           559 blobs / 296.837 MiB
+total prune:         915 blobs / 300.195 MiB
+remaining:        534859 blobs / 43.850 GiB
+unused size after prune: 1.149 GiB (2.62% of remaining size)
+
+repacking packs
+[0:03] 100.00%  4 / 4 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2706 / 2706 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 23 old packs
+[0:00] 100.00%  23 / 23 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 84d5c704
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 13.005s: 350755 files, 34.707 GiB
+
+Files:       34339 new,  4956 changed, 311460 unmodified
+Dirs:         5318 new,   324 changed, 45310 unmodified
+Data Blobs:   7640 new
+Tree Blobs:   5562 new
+Added to the repository: 752.883 MiB (388.666 MiB stored)
+
+processed 350755 files, 34.707 GiB in 0:35
+snapshot c2c4ca3a saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              daily snapshot    /
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              daily snapshot    /
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              daily snapshot    /
+43f13494  2026-04-18 03:00:01  ubuntu-7050              daily snapshot    /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              daily snapshot    /
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+open repository
+lock repository
+using parent snapshot c2c4ca3a
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 16.246s: 350763 files, 34.715 GiB
+
+Files:          18 new, 14318 changed, 336427 unmodified
+Dirs:            9 new,  1889 changed, 49060 unmodified
+Data Blobs:   2133 new
+Tree Blobs:   1820 new
+Added to the repository: 736.579 MiB (273.067 MiB stored)
+
+processed 350763 files, 34.715 GiB in 0:31
+snapshot 81fef46e saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              daily snapshot    /
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              daily snapshot    /
+43f13494  2026-04-18 03:00:01  ubuntu-7050              daily snapshot    /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              daily snapshot    /
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              daily snapshot    /
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+334d9e0d  2026-04-13 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:07] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2749 / 2749 packs processed
+
+
+to repack:           168 blobs / 1.328 MiB
+this removes:        151 blobs / 1.314 MiB
+to delete:             0 blobs / 0 B
+total prune:         151 blobs / 1.314 MiB
+remaining:        551863 blobs / 44.494 GiB
+unused size after prune: 1.181 GiB (2.66% of remaining size)
+
+repacking packs
+[0:00] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2749 / 2749 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 1 old packs
+[0:00] 100.00%  1 / 1 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 81fef46e
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 11.902s: 350789 files, 34.725 GiB
+
+Files:          33 new,   339 changed, 350417 unmodified
+Dirs:            7 new,   259 changed, 50696 unmodified
+Data Blobs:    427 new
+Tree Blobs:    217 new
+Added to the repository: 242.804 MiB (88.430 MiB stored)
+
+processed 350789 files, 34.725 GiB in 0:23
+snapshot d543092a saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              daily snapshot    /
+43f13494  2026-04-18 03:00:01  ubuntu-7050              daily snapshot    /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              daily snapshot    /
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              daily snapshot    /
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              daily snapshot    /
+d543092a  2026-04-24 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+96150fb5  2026-04-14 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2756 / 2756 packs processed
+
+
+to repack:           310 blobs / 2.105 MiB
+this removes:        224 blobs / 1.974 MiB
+to delete:           128 blobs / 32.089 MiB
+total prune:         352 blobs / 34.064 MiB
+remaining:        552155 blobs / 44.547 GiB
+unused size after prune: 1.231 GiB (2.76% of remaining size)
+
+repacking packs
+[0:00] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2754 / 2754 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 3 old packs
+[0:00] 100.00%  3 / 3 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot d543092a
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 12.504s: 350804 files, 34.614 GiB
+
+Files:          26 new,  4837 changed, 345941 unmodified
+Dirs:            8 new,   318 changed, 50638 unmodified
+Data Blobs:    695 new
+Tree Blobs:    252 new
+Added to the repository: 608.950 MiB (397.843 MiB stored)
+
+processed 350804 files, 34.614 GiB in 0:40
+snapshot 6e14d17b saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+43f13494  2026-04-18 03:00:01  ubuntu-7050              daily snapshot    /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              daily snapshot    /
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              daily snapshot    /
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              daily snapshot    /
+d543092a  2026-04-24 03:00:01  ubuntu-7050              daily snapshot    /
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+c2182a88  2026-04-15 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2779 / 2779 packs processed
+
+
+to repack:         13010 blobs / 11.590 MiB
+this removes:        601 blobs / 2.357 MiB
+to delete:           131 blobs / 32.326 MiB
+total prune:         732 blobs / 34.683 MiB
+remaining:        552370 blobs / 44.902 GiB
+unused size after prune: 1.363 GiB (3.04% of remaining size)
+
+repacking packs
+[0:02] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2776 / 2776 packs processed
+
+deleting obsolete index files
+[0:01] 100.00%  5 / 5 files deleted
+
+removing 4 old packs
+[0:00] 100.00%  4 / 4 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 6e14d17b
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 12.930s: 350808 files, 34.579 GiB
+
+Files:          19 new,  4811 changed, 345978 unmodified
+Dirs:            8 new,   280 changed, 50682 unmodified
+Data Blobs:    414 new
+Tree Blobs:    215 new
+Added to the repository: 206.050 MiB (96.312 MiB stored)
+
+processed 350808 files, 34.579 GiB in 0:22
+snapshot 92f9affe saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              weekly snapshot   /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              daily snapshot    /
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              daily snapshot    /
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              daily snapshot    /
+d543092a  2026-04-24 03:00:01  ubuntu-7050              daily snapshot    /
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              daily snapshot    /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+43f13494  2026-04-18 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2783 / 2783 packs processed
+
+
+to repack:         17291 blobs / 14.490 MiB
+this removes:        263 blobs / 1.912 MiB
+to delete:             0 blobs / 0 B
+total prune:         263 blobs / 1.912 MiB
+remaining:        552736 blobs / 44.994 GiB
+unused size after prune: 1.422 GiB (3.16% of remaining size)
+
+repacking packs
+[0:02] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:01] 100.00%  2782 / 2782 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 92f9affe
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 11.701s: 350807 files, 34.574 GiB
+
+Files:           5 new,  4632 changed, 346170 unmodified
+Dirs:            0 new,   256 changed, 50714 unmodified
+Data Blobs:    169 new
+Tree Blobs:    190 new
+Added to the repository: 79.604 MiB (25.524 MiB stored)
+
+processed 350807 files, 34.574 GiB in 0:21
+snapshot e600d9ae saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              daily snapshot    /
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              daily snapshot    /
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              daily snapshot    /
+d543092a  2026-04-24 03:00:01  ubuntu-7050              daily snapshot    /
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              daily snapshot    /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+d03b7731  2026-04-05 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2785 / 2785 packs processed
+
+
+to repack:          6681 blobs / 5.983 MiB
+this removes:       1204 blobs / 2.679 MiB
+to delete:           303 blobs / 99.738 MiB
+total prune:        1507 blobs / 102.418 MiB
+remaining:        551588 blobs / 44.919 GiB
+unused size after prune: 1.573 GiB (3.50% of remaining size)
+
+repacking packs
+[0:00] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2777 / 2777 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 9 old packs
+[0:00] 100.00%  9 / 9 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot e600d9ae
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 15.347s: 350904 files, 34.463 GiB
+
+Files:         104 new, 11577 changed, 339223 unmodified
+Dirs:            8 new,   902 changed, 50068 unmodified
+Data Blobs:    514 new
+Tree Blobs:    838 new
+Added to the repository: 365.623 MiB (127.421 MiB stored)
+
+processed 350904 files, 34.463 GiB in 0:29
+snapshot 5a9e0714 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              daily snapshot    /
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              daily snapshot    /
+d543092a  2026-04-24 03:00:01  ubuntu-7050              daily snapshot    /
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              daily snapshot    /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              daily snapshot    /
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+84d5c704  2026-04-20 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:04] 100.00%  2786 / 2786 packs processed
+
+
+to repack:         26058 blobs / 18.574 MiB
+this removes:        173 blobs / 500.674 KiB
+to delete:             0 blobs / 0 B
+total prune:         173 blobs / 500.674 KiB
+remaining:        552767 blobs / 45.043 GiB
+unused size after prune: 1.589 GiB (3.53% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2786 / 2786 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 5a9e0714
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.444s: 365913 files, 38.158 GiB
+
+Files:       15011 new,   173 changed, 350729 unmodified
+Dirs:         2867 new,   109 changed, 50869 unmodified
+Data Blobs:   3459 new
+Tree Blobs:   2637 new
+Added to the repository: 421.929 MiB (188.366 MiB stored)
+
+processed 365913 files, 38.158 GiB in 0:31
+snapshot ab7e3d41 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              daily snapshot    /
+d543092a  2026-04-24 03:00:01  ubuntu-7050              daily snapshot    /
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              daily snapshot    /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              daily snapshot    /
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              daily snapshot    /
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+c2c4ca3a  2026-04-21 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2799 / 2799 packs processed
+
+
+to repack:         52330 blobs / 37.659 MiB
+this removes:        228 blobs / 1.796 MiB
+to delete:           138 blobs / 48.980 MiB
+total prune:         366 blobs / 50.775 MiB
+remaining:        558497 blobs / 45.177 GiB
+unused size after prune: 1.671 GiB (3.70% of remaining size)
+
+repacking packs
+[0:04] 100.00%  4 / 4 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2795 / 2795 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 7 old packs
+[0:00] 100.00%  7 / 7 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot ab7e3d41
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 10.472s: 294768 files, 34.256 GiB
+
+Files:       37721 new, 11879 changed, 245168 unmodified
+Dirs:         6758 new,  1682 changed, 31264 unmodified
+Data Blobs:  10294 new
+Tree Blobs:   8191 new
+Added to the repository: 1.918 GiB (793.630 MiB stored)
+
+processed 294768 files, 34.256 GiB in 1:08
+snapshot e8c92334 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+d543092a  2026-04-24 03:00:01  ubuntu-7050              daily snapshot    /
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              daily snapshot    /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              daily snapshot    /
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              daily snapshot    /
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              daily snapshot    /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+81fef46e  2026-04-23 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2844 / 2844 packs processed
+
+
+to repack:         26533 blobs / 20.147 MiB
+this removes:        184 blobs / 1.462 MiB
+to delete:           129 blobs / 32.214 MiB
+total prune:         313 blobs / 33.676 MiB
+remaining:        576669 blobs / 45.918 GiB
+unused size after prune: 1.709 GiB (3.72% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2842 / 2842 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 4 old packs
+[0:00] 100.00%  4 / 4 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot e8c92334
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.700s: 294778 files, 34.614 GiB
+
+Files:          19 new,  4673 changed, 290086 unmodified
+Dirs:            8 new,   198 changed, 39500 unmodified
+Data Blobs:    464 new
+Tree Blobs:    171 new
+Added to the repository: 349.899 MiB (240.700 MiB stored)
+
+processed 294778 files, 34.614 GiB in 0:27
+snapshot 57367605 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              daily snapshot    /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              daily snapshot    /
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              daily snapshot    /
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              daily snapshot    /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+57367605  2026-05-01 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+d543092a  2026-04-24 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2857 / 2857 packs processed
+
+
+to repack:         24219 blobs / 18.445 MiB
+this removes:        225 blobs / 1.794 MiB
+to delete:             0 blobs / 0 B
+total prune:         225 blobs / 1.794 MiB
+remaining:        577079 blobs / 46.151 GiB
+unused size after prune: 1.776 GiB (3.85% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2856 / 2856 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 57367605
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.351s: 294781 files, 34.616 GiB
+
+Files:           5 new,   113 changed, 294663 unmodified
+Dirs:            0 new,    54 changed, 39652 unmodified
+Data Blobs:    331 new
+Tree Blobs:     49 new
+Added to the repository: 221.909 MiB (68.061 MiB stored)
+
+processed 294781 files, 34.616 GiB in 0:14
+snapshot 22514cfd saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              daily snapshot    /
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              daily snapshot    /
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              daily snapshot    /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+57367605  2026-05-01 03:00:01  ubuntu-7050              daily snapshot    /
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+6e14d17b  2026-04-25 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2862 / 2862 packs processed
+
+
+to repack:         24246 blobs / 18.477 MiB
+this removes:        209 blobs / 890.782 KiB
+to delete:             0 blobs / 0 B
+total prune:         209 blobs / 890.782 KiB
+remaining:        577250 blobs / 46.217 GiB
+unused size after prune: 1.792 GiB (3.88% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2862 / 2862 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 22514cfd
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.511s: 294779 files, 34.381 GiB
+
+Files:           3 new,   213 changed, 294563 unmodified
+Dirs:            0 new,   114 changed, 39592 unmodified
+Data Blobs:    286 new
+Tree Blobs:    107 new
+Added to the repository: 183.734 MiB (111.674 MiB stored)
+
+processed 294779 files, 34.381 GiB in 0:16
+snapshot 0692a64d saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              weekly snapshot   /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              daily snapshot    /
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              daily snapshot    /
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              daily snapshot    /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+57367605  2026-05-01 03:00:01  ubuntu-7050              daily snapshot    /
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              daily snapshot    /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+open repository
+lock repository
+using parent snapshot 0692a64d
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 8.013s: 294798 files, 34.399 GiB
+
+Files:       34326 new,  1524 changed, 258948 unmodified
+Dirs:         5314 new,   210 changed, 34183 unmodified
+Data Blobs:   7425 new
+Tree Blobs:   5509 new
+Added to the repository: 443.423 MiB (290.037 MiB stored)
+
+processed 294798 files, 34.399 GiB in 0:24
+snapshot 744cdc78 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              daily snapshot    /
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              daily snapshot    /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+57367605  2026-05-01 03:00:01  ubuntu-7050              daily snapshot    /
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              daily snapshot    /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 2 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+5472fc79  2026-04-12 03:00:01  ubuntu-7050              /
+e600d9ae  2026-04-27 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+2 snapshots
+
+[0:00] 100.00%  2 / 2 files deleted
+
+2 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2889 / 2889 packs processed
+
+
+to repack:         48485 blobs / 37.070 MiB
+this removes:       1495 blobs / 3.552 MiB
+to delete:           421 blobs / 97.534 MiB
+total prune:        1916 blobs / 101.086 MiB
+remaining:        588661 blobs / 46.510 GiB
+unused size after prune: 1.950 GiB (4.19% of remaining size)
+
+repacking packs
+[0:04] 100.00%  4 / 4 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2880 / 2880 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 11 old packs
+[0:00] 100.00%  11 / 11 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 744cdc78
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.465s: 294795 files, 34.131 GiB
+
+Files:           2 new,  4510 changed, 290283 unmodified
+Dirs:            0 new,   148 changed, 39559 unmodified
+Data Blobs:    232 new
+Tree Blobs:    121 new
+Added to the repository: 125.956 MiB (44.584 MiB stored)
+
+processed 294795 files, 34.131 GiB in 0:15
+snapshot 49afe9b9 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              daily snapshot    /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+57367605  2026-05-01 03:00:01  ubuntu-7050              daily snapshot    /
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              daily snapshot    /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              daily snapshot    /
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+5a9e0714  2026-04-28 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2884 / 2884 packs processed
+
+
+to repack:         23265 blobs / 19.179 MiB
+this removes:         86 blobs / 139.617 KiB
+to delete:             0 blobs / 0 B
+total prune:          86 blobs / 139.617 KiB
+remaining:        588928 blobs / 46.553 GiB
+unused size after prune: 1.962 GiB (4.22% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2884 / 2884 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 49afe9b9
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.382s: 294797 files, 34.133 GiB
+
+Files:           3 new,   261 changed, 294533 unmodified
+Dirs:            0 new,   121 changed, 39586 unmodified
+Data Blobs:    406 new
+Tree Blobs:    115 new
+Added to the repository: 301.512 MiB (91.995 MiB stored)
+
+processed 294797 files, 34.133 GiB in 0:16
+snapshot 3d7c9590 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 11 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        monthly snapshot
+57367605  2026-05-01 03:00:01  ubuntu-7050              daily snapshot    /
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              daily snapshot    /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              daily snapshot    /
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              daily snapshot    /
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+11 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+ab7e3d41  2026-04-29 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 11 snapshots
+[0:06] 100.00%  11 / 11 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2891 / 2891 packs processed
+
+
+to repack:         22717 blobs / 18.737 MiB
+this removes:        254 blobs / 1.791 MiB
+to delete:           128 blobs / 32.294 MiB
+total prune:         382 blobs / 34.085 MiB
+remaining:        589067 blobs / 46.610 GiB
+unused size after prune: 1.995 GiB (4.28% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2888 / 2888 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 4 old packs
+[0:00] 100.00%  4 / 4 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 3d7c9590
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.626s: 294800 files, 34.356 GiB
+
+Files:           8 new,  4599 changed, 290193 unmodified
+Dirs:            4 new,   188 changed, 39516 unmodified
+Data Blobs:    482 new
+Tree Blobs:    160 new
+Added to the repository: 432.556 MiB (223.726 MiB stored)
+
+processed 294800 files, 34.356 GiB in 0:25
+snapshot 3d261f20 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+57367605  2026-05-01 03:00:01  ubuntu-7050              daily snapshot    /
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              daily snapshot    /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              daily snapshot    /
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              daily snapshot    /
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              daily snapshot    /
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+open repository
+lock repository
+using parent snapshot 3d261f20
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 12.302s: 296314 files, 34.350 GiB
+
+Files:        1940 new, 35152 changed, 259222 unmodified
+Dirs:          259 new,  5241 changed, 34378 unmodified
+Data Blobs:  15588 new
+Tree Blobs:   5450 new
+Added to the repository: 1.123 GiB (351.338 MiB stored)
+
+processed 296314 files, 34.350 GiB in 0:31
+snapshot 867cd273 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              daily snapshot    /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              daily snapshot    /
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              daily snapshot    /
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              daily snapshot    /
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              daily snapshot    /
+867cd273  2026-05-08 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+57367605  2026-05-01 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:06] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2926 / 2926 packs processed
+
+
+to repack:           171 blobs / 700.988 KiB
+this removes:         47 blobs / 136.413 KiB
+to delete:           133 blobs / 32.268 MiB
+total prune:         180 blobs / 32.401 MiB
+remaining:        610567 blobs / 47.139 GiB
+unused size after prune: 2.021 GiB (4.29% of remaining size)
+
+repacking packs
+[0:00] 100.00%  1 / 1 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2924 / 2924 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 3 old packs
+[0:00] 100.00%  3 / 3 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 867cd273
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.514s: 296311 files, 34.831 GiB
+
+Files:           4 new,  7390 changed, 288917 unmodified
+Dirs:            0 new,   522 changed, 39356 unmodified
+Data Blobs:    967 new
+Tree Blobs:    489 new
+Added to the repository: 438.745 MiB (251.109 MiB stored)
+
+processed 296311 files, 34.831 GiB in 0:25
+snapshot 2e03e1b7 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              daily snapshot    /
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              daily snapshot    /
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              daily snapshot    /
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              daily snapshot    /
+867cd273  2026-05-08 03:00:01  ubuntu-7050              daily snapshot    /
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+22514cfd  2026-05-02 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2940 / 2940 packs processed
+
+
+to repack:           173 blobs / 702.364 KiB
+this removes:         81 blobs / 244.260 KiB
+to delete:             0 blobs / 0 B
+total prune:          81 blobs / 244.260 KiB
+remaining:        611942 blobs / 47.384 GiB
+unused size after prune: 2.065 GiB (4.36% of remaining size)
+
+repacking packs
+[0:00] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2939 / 2939 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 2 old packs
+[0:00] 100.00%  2 / 2 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 2e03e1b7
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.422s: 296310 files, 34.423 GiB
+
+Files:           5 new,  4775 changed, 291530 unmodified
+Dirs:            4 new,   250 changed, 39625 unmodified
+Data Blobs:    178 new
+Tree Blobs:    221 new
+Added to the repository: 91.937 MiB (30.364 MiB stored)
+
+processed 296310 files, 34.423 GiB in 0:17
+snapshot ffc6565a saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 13 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              weekly snapshot   /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              daily snapshot    /
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              daily snapshot    /
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              daily snapshot    /
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              daily snapshot    /
+867cd273  2026-05-08 03:00:01  ubuntu-7050              daily snapshot    /
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              daily snapshot    /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+13 snapshots
+
+open repository
+lock repository
+using parent snapshot ffc6565a
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 4.472s: 296313 files, 34.565 GiB
+
+Files:           4 new,   156 changed, 296153 unmodified
+Dirs:            0 new,    91 changed, 39788 unmodified
+Data Blobs:    276 new
+Tree Blobs:     87 new
+Added to the repository: 145.237 MiB (53.741 MiB stored)
+
+processed 296313 files, 34.565 GiB in 0:14
+snapshot 53fad69a saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              daily snapshot    /
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              daily snapshot    /
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              daily snapshot    /
+867cd273  2026-05-08 03:00:01  ubuntu-7050              daily snapshot    /
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              daily snapshot    /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 2 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+2ba6f355  2026-04-19 03:00:01  ubuntu-7050              /
+744cdc78  2026-05-04 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+2 snapshots
+
+[0:00] 100.00%  2 / 2 files deleted
+
+2 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:06] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2947 / 2947 packs processed
+
+
+to repack:         70617 blobs / 423.632 MiB
+this removes:      14987 blobs / 383.112 MiB
+to delete:         14356 blobs / 672.011 MiB
+total prune:       29343 blobs / 1.030 GiB
+remaining:        583361 blobs / 46.436 GiB
+unused size after prune: 2.318 GiB (4.99% of remaining size)
+
+repacking packs
+[0:05] 100.00%  31 / 31 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2877 / 2877 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  7 / 7 files deleted
+
+removing 74 old packs
+[0:00] 100.00%  74 / 74 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 53fad69a
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 9.614s: 421936 files, 44.998 GiB
+
+Files:       132582 new,  5120 changed, 284234 unmodified
+Dirs:        23482 new,   367 changed, 38177 unmodified
+Data Blobs:  45688 new
+Tree Blobs:  21583 new
+Added to the repository: 3.816 GiB (1.549 GiB stored)
+
+processed 421936 files, 44.998 GiB in 1:55
+snapshot 9b4c0299 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              daily snapshot    /
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              daily snapshot    /
+867cd273  2026-05-08 03:00:01  ubuntu-7050              daily snapshot    /
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              daily snapshot    /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              daily snapshot    /
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+49afe9b9  2026-05-05 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2974 / 2974 packs processed
+
+
+to repack:         47038 blobs / 34.380 MiB
+this removes:        104 blobs / 1.073 MiB
+to delete:           133 blobs / 32.307 MiB
+total prune:         237 blobs / 33.379 MiB
+remaining:        650395 blobs / 47.949 GiB
+unused size after prune: 2.339 GiB (4.88% of remaining size)
+
+repacking packs
+[0:04] 100.00%  3 / 3 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2971 / 2971 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 5 old packs
+[0:00] 100.00%  5 / 5 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 9b4c0299
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.657s: 429408 files, 45.495 GiB
+
+Files:        7479 new,  1176 changed, 420753 unmodified
+Dirs:         1640 new,   182 changed, 61844 unmodified
+Data Blobs:   6464 new
+Tree Blobs:   1734 new
+Added to the repository: 677.097 MiB (279.620 MiB stored)
+
+processed 429408 files, 45.495 GiB in 0:29
+snapshot 7e5bed99 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              daily snapshot    /
+867cd273  2026-05-08 03:00:01  ubuntu-7050              daily snapshot    /
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              daily snapshot    /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              daily snapshot    /
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              daily snapshot    /
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+3d7c9590  2026-05-06 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2989 / 2989 packs processed
+
+
+to repack:         47049 blobs / 34.567 MiB
+this removes:        130 blobs / 548.502 KiB
+to delete:           134 blobs / 32.364 MiB
+total prune:         264 blobs / 32.899 MiB
+remaining:        658329 blobs / 48.190 GiB
+unused size after prune: 2.392 GiB (4.96% of remaining size)
+
+repacking packs
+[0:05] 100.00%  3 / 3 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2987 / 2987 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 5 old packs
+[0:00] 100.00%  5 / 5 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 7e5bed99
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.338s: 429403 files, 45.730 GiB
+
+Files:           8 new,  4733 changed, 424662 unmodified
+Dirs:            4 new,   228 changed, 63435 unmodified
+Data Blobs:    465 new
+Tree Blobs:    200 new
+Added to the repository: 341.992 MiB (225.180 MiB stored)
+
+processed 429403 files, 45.730 GiB in 0:31
+snapshot dcea1385 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+867cd273  2026-05-08 03:00:01  ubuntu-7050              daily snapshot    /
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              daily snapshot    /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              daily snapshot    /
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              daily snapshot    /
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              daily snapshot    /
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+3d261f20  2026-05-07 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  3002 / 3002 packs processed
+
+
+to repack:         47834 blobs / 99.800 MiB
+this removes:       1122 blobs / 66.729 MiB
+to delete:           132 blobs / 32.344 MiB
+total prune:        1254 blobs / 99.072 MiB
+remaining:        657740 blobs / 48.313 GiB
+unused size after prune: 2.406 GiB (4.98% of remaining size)
+
+repacking packs
+[0:05] 100.00%  7 / 7 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2996 / 2996 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 9 old packs
+[0:00] 100.00%  9 / 9 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot dcea1385
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 8.459s: 429093 files, 45.665 GiB
+
+Files:         150 new, 13390 changed, 415553 unmodified
+Dirs:          134 new,  1563 changed, 62015 unmodified
+Data Blobs:   1343 new
+Tree Blobs:   1602 new
+Added to the repository: 622.040 MiB (188.826 MiB stored)
+
+processed 429093 files, 45.665 GiB in 0:30
+snapshot c11fee21 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              daily snapshot    /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              daily snapshot    /
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              daily snapshot    /
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              daily snapshot    /
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              daily snapshot    /
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+867cd273  2026-05-08 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  3009 / 3009 packs processed
+
+
+to repack:         52553 blobs / 87.500 MiB
+this removes:        526 blobs / 51.138 MiB
+to delete:           126 blobs / 32.215 MiB
+total prune:         652 blobs / 83.353 MiB
+remaining:        660033 blobs / 48.416 GiB
+unused size after prune: 2.407 GiB (4.97% of remaining size)
+
+repacking packs
+[0:05] 100.00%  6 / 6 packs repacked
+
+rebuilding index
+[0:02] 100.00%  3005 / 3005 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 8 old packs
+[0:00] 100.00%  8 / 8 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot c11fee21
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.581s: 429097 files, 45.801 GiB
+
+Files:           8 new,   144 changed, 428945 unmodified
+Dirs:            3 new,    71 changed, 63639 unmodified
+Data Blobs:    364 new
+Tree Blobs:     68 new
+Added to the repository: 271.348 MiB (124.983 MiB stored)
+
+processed 429097 files, 45.801 GiB in 0:25
+snapshot ae711cb2 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              daily snapshot    /
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              daily snapshot    /
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              daily snapshot    /
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              daily snapshot    /
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              daily snapshot    /
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+2e03e1b7  2026-05-09 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  3014 / 3014 packs processed
+
+
+to repack:         26394 blobs / 85.846 MiB
+this removes:       2064 blobs / 68.248 MiB
+to delete:             0 blobs / 0 B
+total prune:        2064 blobs / 68.248 MiB
+remaining:        658401 blobs / 48.471 GiB
+unused size after prune: 2.411 GiB (4.97% of remaining size)
+
+repacking packs
+[0:04] 100.00%  6 / 6 packs repacked
+
+rebuilding index
+[0:02] 100.00%  3011 / 3011 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 6 old packs
+[0:00] 100.00%  6 / 6 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot ae711cb2
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.599s: 429097 files, 45.796 GiB
+
+Files:           2 new,  4515 changed, 424580 unmodified
+Dirs:            0 new,   146 changed, 63567 unmodified
+Data Blobs:    113 new
+Tree Blobs:    120 new
+Added to the repository: 65.485 MiB (26.058 MiB stored)
+
+processed 429097 files, 45.796 GiB in 0:22
+snapshot d94aa1c8 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 13 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              weekly snapshot   /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              daily snapshot    /
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              daily snapshot    /
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              daily snapshot    /
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              daily snapshot    /
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              daily snapshot    /
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              daily snapshot    /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+13 snapshots
+
+open repository
+lock repository
+using parent snapshot d94aa1c8
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 15.011s: 429118 files, 45.796 GiB
+
+Files:       34331 new,  4667 changed, 390120 unmodified
+Dirs:         5315 new,   270 changed, 58130 unmodified
+Data Blobs:   7416 new
+Tree Blobs:   5514 new
+Added to the repository: 502.982 MiB (315.262 MiB stored)
+
+processed 429118 files, 45.796 GiB in 0:31
+snapshot 64304186 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              daily snapshot    /
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              daily snapshot    /
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              daily snapshot    /
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              daily snapshot    /
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              daily snapshot    /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+64304186  2026-05-18 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 2 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+92f9affe  2026-04-26 03:00:01  ubuntu-7050              /
+53fad69a  2026-05-11 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+2 snapshots
+
+[0:00] 100.00%  2 / 2 files deleted
+
+2 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  3035 / 3035 packs processed
+
+
+to repack:         75209 blobs / 589.287 MiB
+this removes:      30378 blobs / 557.394 MiB
+to delete:         25625 blobs / 1.389 GiB
+total prune:       56003 blobs / 1.934 GiB
+remaining:        615561 blobs / 46.870 GiB
+unused size after prune: 2.340 GiB (4.99% of remaining size)
+
+repacking packs
+[0:04] 100.00%  45 / 45 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2907 / 2907 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  7 / 7 files deleted
+
+removing 131 old packs
+[0:00] 100.00%  131 / 131 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 64304186
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 11.328s: 429118 files, 45.727 GiB
+
+Files:           4 new,  6796 changed, 422318 unmodified
+Dirs:            0 new,   299 changed, 63416 unmodified
+Data Blobs:    539 new
+Tree Blobs:    270 new
+Added to the repository: 312.477 MiB (130.834 MiB stored)
+
+processed 429118 files, 45.727 GiB in 0:26
+snapshot b0daad6e saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              daily snapshot    /
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              daily snapshot    /
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              daily snapshot    /
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              daily snapshot    /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+64304186  2026-05-18 03:00:01  ubuntu-7050              daily snapshot    /
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+9b4c0299  2026-05-12 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:06] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2916 / 2916 packs processed
+
+
+to repack:         23689 blobs / 32.942 MiB
+this removes:       2234 blobs / 17.873 MiB
+to delete:           201 blobs / 48.559 MiB
+total prune:        2435 blobs / 66.432 MiB
+remaining:        613935 blobs / 46.933 GiB
+unused size after prune: 2.343 GiB (4.99% of remaining size)
+
+repacking packs
+[0:04] 100.00%  2 / 2 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2913 / 2913 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 5 old packs
+[0:00] 100.00%  5 / 5 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot b0daad6e
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.259s: 429119 files, 45.736 GiB
+
+Files:           2 new,  4536 changed, 424581 unmodified
+Dirs:            0 new,   153 changed, 63562 unmodified
+Data Blobs:    323 new
+Tree Blobs:    127 new
+Added to the repository: 181.298 MiB (74.435 MiB stored)
+
+processed 429119 files, 45.736 GiB in 0:23
+snapshot 227a35f9 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              daily snapshot    /
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              daily snapshot    /
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              daily snapshot    /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+64304186  2026-05-18 03:00:01  ubuntu-7050              daily snapshot    /
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              daily snapshot    /
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+7e5bed99  2026-05-13 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2919 / 2919 packs processed
+
+
+to repack:         45031 blobs / 78.749 MiB
+this removes:       2962 blobs / 49.801 MiB
+to delete:           129 blobs / 32.099 MiB
+total prune:        3091 blobs / 81.901 MiB
+remaining:        611294 blobs / 46.926 GiB
+unused size after prune: 2.336 GiB (4.98% of remaining size)
+
+repacking packs
+[0:05] 100.00%  6 / 6 packs repacked
+
+rebuilding index
+[0:03] 100.00%  2914 / 2914 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 8 old packs
+[0:00] 100.00%  8 / 8 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 227a35f9
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 16.505s: 429136 files, 45.766 GiB
+
+Files:          37 new, 12403 changed, 416696 unmodified
+Dirs:            5 new,  1580 changed, 62131 unmodified
+Data Blobs:   1368 new
+Tree Blobs:   1509 new
+Added to the repository: 598.899 MiB (167.968 MiB stored)
+
+processed 429136 files, 45.766 GiB in 0:30
+snapshot 65d6fe66 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              daily snapshot    /
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              daily snapshot    /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+64304186  2026-05-18 03:00:01  ubuntu-7050              daily snapshot    /
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              daily snapshot    /
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              daily snapshot    /
+65d6fe66  2026-05-21 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+dcea1385  2026-05-14 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2925 / 2925 packs processed
+
+
+to repack:         42380 blobs / 63.350 MiB
+this removes:        313 blobs / 34.486 MiB
+to delete:           126 blobs / 32.151 MiB
+total prune:         439 blobs / 66.636 MiB
+remaining:        613732 blobs / 47.025 GiB
+unused size after prune: 2.348 GiB (4.99% of remaining size)
+
+repacking packs
+[0:04] 100.00%  6 / 6 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2920 / 2920 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 8 old packs
+[0:00] 100.00%  8 / 8 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 65d6fe66
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 6.908s: 429141 files, 45.768 GiB
+
+Files:           7 new,  4549 changed, 424585 unmodified
+Dirs:            0 new,   152 changed, 63564 unmodified
+Data Blobs:    341 new
+Tree Blobs:    125 new
+Added to the repository: 244.264 MiB (82.366 MiB stored)
+
+processed 429141 files, 45.768 GiB in 0:22
+snapshot 03cf8d78 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              daily snapshot    /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+64304186  2026-05-18 03:00:01  ubuntu-7050              daily snapshot    /
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              daily snapshot    /
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              daily snapshot    /
+65d6fe66  2026-05-21 03:00:01  ubuntu-7050              daily snapshot    /
+03cf8d78  2026-05-22 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+c11fee21  2026-05-15 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:06] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2927 / 2927 packs processed
+
+
+to repack:         29240 blobs / 52.521 MiB
+this removes:       3037 blobs / 32.887 MiB
+to delete:             0 blobs / 0 B
+total prune:        3037 blobs / 32.887 MiB
+remaining:        611161 blobs / 47.073 GiB
+unused size after prune: 2.345 GiB (4.98% of remaining size)
+
+repacking packs
+[0:04] 100.00%  4 / 4 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2926 / 2926 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 4 old packs
+[0:00] 100.00%  4 / 4 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 03cf8d78
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 6.969s: 429138 files, 45.767 GiB
+
+Files:          11 new,  4621 changed, 424506 unmodified
+Dirs:            0 new,   185 changed, 63531 unmodified
+Data Blobs:    368 new
+Tree Blobs:    158 new
+Added to the repository: 216.455 MiB (82.988 MiB stored)
+
+processed 429138 files, 45.767 GiB in 0:23
+snapshot e035536e saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+64304186  2026-05-18 03:00:01  ubuntu-7050              daily snapshot    /
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              daily snapshot    /
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              daily snapshot    /
+65d6fe66  2026-05-21 03:00:01  ubuntu-7050              daily snapshot    /
+03cf8d78  2026-05-22 03:00:01  ubuntu-7050              daily snapshot    /
+e035536e  2026-05-23 03:00:02  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+ae711cb2  2026-05-16 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2933 / 2933 packs processed
+
+
+to repack:         23888 blobs / 36.145 MiB
+this removes:        282 blobs / 16.584 MiB
+to delete:             0 blobs / 0 B
+total prune:         282 blobs / 16.584 MiB
+remaining:        611405 blobs / 47.138 GiB
+unused size after prune: 2.353 GiB (4.99% of remaining size)
+
+repacking packs
+[0:04] 100.00%  13 / 13 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2923 / 2923 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 13 old packs
+[0:00] 100.00%  13 / 13 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot e035536e
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 6.933s: 429143 files, 46.015 GiB
+
+Files:           8 new,   460 changed, 428675 unmodified
+Dirs:            4 new,   298 changed, 63415 unmodified
+Data Blobs:    467 new
+Tree Blobs:    292 new
+Added to the repository: 357.003 MiB (218.072 MiB stored)
+
+processed 429143 files, 46.015 GiB in 0:30
+snapshot 10ccee60 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 13 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              weekly snapshot   /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              weekly snapshot   /
+64304186  2026-05-18 03:00:01  ubuntu-7050              daily snapshot    /
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              daily snapshot    /
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              daily snapshot    /
+65d6fe66  2026-05-21 03:00:01  ubuntu-7050              daily snapshot    /
+03cf8d78  2026-05-22 03:00:01  ubuntu-7050              daily snapshot    /
+e035536e  2026-05-23 03:00:02  ubuntu-7050              daily snapshot    /
+10ccee60  2026-05-24 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+13 snapshots
+
+open repository
+lock repository
+using parent snapshot 10ccee60
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.139s: 429143 files, 45.524 GiB
+
+Files:           5 new,  4541 changed, 424597 unmodified
+Dirs:            0 new,   155 changed, 63562 unmodified
+Data Blobs:    332 new
+Tree Blobs:    129 new
+Added to the repository: 185.375 MiB (72.805 MiB stored)
+
+processed 429143 files, 45.524 GiB in 0:22
+snapshot 9bfeed1c saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              weekly snapshot   /
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              daily snapshot    /
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              daily snapshot    /
+65d6fe66  2026-05-21 03:00:01  ubuntu-7050              daily snapshot    /
+03cf8d78  2026-05-22 03:00:01  ubuntu-7050              daily snapshot    /
+e035536e  2026-05-23 03:00:02  ubuntu-7050              daily snapshot    /
+10ccee60  2026-05-24 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+9bfeed1c  2026-05-25 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 2 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+0692a64d  2026-05-03 03:00:01  ubuntu-7050              /
+64304186  2026-05-18 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+2 snapshots
+
+[0:00] 100.00%  2 / 2 files deleted
+
+2 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2943 / 2943 packs processed
+
+
+to repack:         26539 blobs / 74.149 MiB
+this removes:        530 blobs / 53.857 MiB
+to delete:           445 blobs / 99.900 MiB
+total prune:         975 blobs / 153.757 MiB
+remaining:        611650 blobs / 47.272 GiB
+unused size after prune: 2.357 GiB (4.99% of remaining size)
+
+repacking packs
+[0:04] 100.00%  6 / 6 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2933 / 2933 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  7 / 7 files deleted
+
+removing 13 old packs
+[0:00] 100.00%  13 / 13 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 9bfeed1c
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 6.930s: 429150 files, 45.543 GiB
+
+Files:           8 new,  4552 changed, 424590 unmodified
+Dirs:            0 new,   160 changed, 63557 unmodified
+Data Blobs:    375 new
+Tree Blobs:    133 new
+Added to the repository: 232.190 MiB (91.161 MiB stored)
+
+processed 429150 files, 45.543 GiB in 0:23
+snapshot 8102d893 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              weekly snapshot   /
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              daily snapshot    /
+65d6fe66  2026-05-21 03:00:01  ubuntu-7050              daily snapshot    /
+03cf8d78  2026-05-22 03:00:01  ubuntu-7050              daily snapshot    /
+e035536e  2026-05-23 03:00:02  ubuntu-7050              daily snapshot    /
+10ccee60  2026-05-24 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+9bfeed1c  2026-05-25 03:00:01  ubuntu-7050              daily snapshot    /
+8102d893  2026-05-26 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+b0daad6e  2026-05-19 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:02] 100.00%  2940 / 2940 packs processed
+
+
+to repack:           437 blobs / 40.642 MiB
+this removes:        279 blobs / 39.833 MiB
+to delete:           129 blobs / 32.283 MiB
+total prune:         408 blobs / 72.116 MiB
+remaining:        611750 blobs / 47.290 GiB
+unused size after prune: 2.358 GiB (4.99% of remaining size)
+
+repacking packs
+[0:00] 100.00%  4 / 4 packs repacked
+
+rebuilding index
+[0:02] 100.00%  2936 / 2936 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  5 / 5 files deleted
+
+removing 6 old packs
+[0:00] 100.00%  6 / 6 files deleted
+
+done
+open repository
+lock repository
+using parent snapshot 8102d893
+load index files
+start scan on [/]
+start backup on [/]
+scan finished in 7.793s: 429157 files, 45.826 GiB
+
+Files:          16 new,  7200 changed, 421941 unmodified
+Dirs:            5 new,   454 changed, 63260 unmodified
+Data Blobs:   1081 new
+Tree Blobs:    418 new
+Added to the repository: 740.599 MiB (390.035 MiB stored)
+
+processed 429157 files, 45.826 GiB in 0:40
+snapshot cc2d6ce2 saved
+Applying Policy: keep 7 daily, 4 weekly, 6 monthly snapshots
+keep 12 snapshots:
+ID        Time                 Host         Tags        Reasons           Paths
+-------------------------------------------------------------------------------
+a8f9d203  2026-03-01 17:18:45  ubuntu-7050              monthly snapshot  /
+70808d45  2026-03-31 03:00:01  ubuntu-7050              monthly snapshot  /
+e8c92334  2026-04-30 03:00:01  ubuntu-7050              monthly snapshot  /
+ffc6565a  2026-05-10 03:00:01  ubuntu-7050              weekly snapshot   /
+d94aa1c8  2026-05-17 03:00:01  ubuntu-7050              weekly snapshot   /
+65d6fe66  2026-05-21 03:00:01  ubuntu-7050              daily snapshot    /
+03cf8d78  2026-05-22 03:00:01  ubuntu-7050              daily snapshot    /
+e035536e  2026-05-23 03:00:02  ubuntu-7050              daily snapshot    /
+10ccee60  2026-05-24 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+9bfeed1c  2026-05-25 03:00:01  ubuntu-7050              daily snapshot    /
+8102d893  2026-05-26 03:00:01  ubuntu-7050              daily snapshot    /
+cc2d6ce2  2026-05-27 03:00:01  ubuntu-7050              daily snapshot    /
+                                                        weekly snapshot
+                                                        monthly snapshot
+-------------------------------------------------------------------------------
+12 snapshots
+
+remove 1 snapshots:
+ID        Time                 Host         Tags        Paths
+-------------------------------------------------------------
+227a35f9  2026-05-20 03:00:01  ubuntu-7050              /
+-------------------------------------------------------------
+1 snapshots
+
+[0:00] 100.00%  1 / 1 files deleted
+
+1 snapshots have been removed, running prune
+loading indexes...
+loading all snapshots...
+finding data that is still in use for 12 snapshots
+[0:07] 100.00%  12 / 12 snapshots
+
+searching used packs...
+collecting packs for deletion and repacking
+[0:03] 100.00%  2961 / 2961 packs processed
+
+
+to repack:         24186 blobs / 19.127 MiB
+this removes:        218 blobs / 1.388 MiB
+to delete:           205 blobs / 48.372 MiB
+total prune:         423 blobs / 49.760 MiB
+remaining:        612826 blobs / 47.622 GiB
+unused size after prune: 2.369 GiB (4.98% of remaining size)
+
+repacking packs
+[0:04] 100.00%  3 / 3 packs repacked
+
+rebuilding index
+[0:03] 100.00%  2957 / 2957 packs processed
+
+deleting obsolete index files
+[0:00] 100.00%  6 / 6 files deleted
+
+removing 6 old packs
+[0:00] 100.00%  6 / 6 files deleted
+
+done

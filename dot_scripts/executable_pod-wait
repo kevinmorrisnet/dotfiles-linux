@@ -1,0 +1,19 @@
+read -rp "Namespace: " namespace
+read -rp "Pod partial match: " pod_match
+pod_name=$(kubectl get pod -n "$namespace" --no-headers -o name | grep "$pod_match" | head -1 | sed 's|pod/||')
+max_attempts=60
+attempt=0
+while true; do
+  status=$(kubectl get pod "$pod_name" -n "$namespace" --no-headers -o custom-columns=":status.phase")
+  if [[ "$status" == "Running" ]]; then
+    echo "Pod $pod_name is running."
+    break
+  fi
+  ((attempt++))
+  if (( attempt >= max_attempts )); then
+    echo "Timed out waiting for $pod_name" >&2
+    exit 1
+  fi
+  echo "Waiting... ($status)"
+  sleep 1
+done

@@ -16,6 +16,11 @@ alias t='tmux'
 alias e='exit'
 alias v='nvim'
 
+# ssh to cluster
+alias ctp='ssh ubuntu-control-plane'
+alias wn1='ssh ubuntu-worker-node01'
+alias wn2='ssh ubuntu-worker-node02'
+
 #Directories defined in Environment Variables using export
 alias repo='cd $REPOS'
 alias dev='cd $DEV'
@@ -30,6 +35,7 @@ alias lab='cd $LAB'
 alias master='cd $MASTER'
 alias down='cd $DOWN'
 alias devcon='cd $DEVCON'
+alias jobs='cd $JOBS'
 
 
 #K8S

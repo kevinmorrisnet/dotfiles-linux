@@ -1,5 +1,0 @@
-#! /bin/bash
-false
-#true
-echo "success!"
-

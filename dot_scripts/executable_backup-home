@@ -1,0 +1,20 @@
+#!/bin/bash
+export RESTIC_REPOSITORY="sftp:nas:/backups/ubuntu-7050/home"
+export RESTIC_PASSWORD_FILE="$HOME/.restic-password"
+
+restic backup /home/kevin \
+  --exclude="/home/kevin/.cache" \
+  --exclude="*/Cache/*" \
+  --exclude="*/cache/*" \
+  --exclude="*/node_modules/*" \
+  --exclude="/home/kevin/.npm" \
+  --exclude="/home/kevin/.local/share/Trash" \
+  --exclude="*.tmp" \
+  --exclude="*.log" \
+  --verbose
+
+restic forget \
+  --keep-daily 7 \
+  --keep-weekly 4 \
+  --keep-monthly 6 \
+  --prune

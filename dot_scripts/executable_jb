@@ -1,0 +1,8 @@
+#!/bin/bash
+export DISPLAY=:0
+cd ~/DevOps/Jobs
+python3 job_tracker.py
+pkill -f "http.server 8080" 2>/dev/null
+python3 -m http.server 8080 &
+sleep 1
+firefox http://localhost:8080/job_dashboard.html &

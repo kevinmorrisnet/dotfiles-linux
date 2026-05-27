@@ -1,0 +1,2 @@
+read -rp "Namespace: " namespace
+kubectl get pod -n "$namespace" --no-headers | grep Running

@@ -1,5 +1,0 @@
-lnks Git Repository https://github.com/hamvocke/lnks
-Stack Overflow https://stackoverflow.com
-GitHub https://github.com
-Weather https://wttr.in
-Awesome Lists https://github.com/sindresorhus/awesome
