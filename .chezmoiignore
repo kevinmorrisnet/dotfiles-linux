@@ -2,3 +2,5 @@ setup
 .kube/config
 .config/nvim/lazy-lock.json
 .config/nvim/lazyvim.json
+.scripts/backup-home.log
+.scripts/backup-system.log

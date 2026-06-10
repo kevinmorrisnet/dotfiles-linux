@@ -16,12 +16,12 @@ alias t='tmux'
 alias e='exit'
 alias v='nvim'
 
-# ssh to cluster
+# ssh cluster
 alias ctp='ssh ubuntu-control-plane'
 alias wn1='ssh ubuntu-worker-node01'
 alias wn2='ssh ubuntu-worker-node02'
 
-#Directories defined in Environment Variables using export
+#Directories defined in env var using export
 alias repo='cd $REPOS'
 alias dev='cd $DEV'
 alias pi='cd $PI'
@@ -37,8 +37,7 @@ alias down='cd $DOWN'
 alias devcon='cd $DEVCON'
 alias jobs='cd $JOBS'
 
-
-#K8S
+#k8s
 alias k='kubectl'
 alias kgp='kubectl get pods'
 alias kgpa='kubectl get pods --all-namespaces'
@@ -52,14 +51,17 @@ alias fgk='flux get kustomizations'
 alias frk='flux reconcile kustomization'
 
 # Git
-alias gaa="git add ."
-alias gbr="git branch"
-alias gba="git branch -a"
-alias gcl="git clone"
-alias gcm="git commit -m"
-alias gdf="git diff"
-alias gpl="git pull"
-alias gpu="git push"
-alias gsw="git switch"
-alias gsc="git switch -c"
-alias gst="git status"
+alias gaa='git add .'
+alias gbr='git branch'
+alias gba='git branch -a'
+alias gcl='git clone'
+alias gcm='git commit -m'
+alias gdf='git diff'
+alias gpl='git pull'
+alias gpu='git push'
+alias gsw='git switch'
+alias gsc='git switch -c'
+alias gst='git status'
+
+#Containerlab
+alias clab='containerlab'
