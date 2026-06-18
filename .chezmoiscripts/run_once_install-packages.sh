@@ -23,8 +23,8 @@ curl -L -o devpod "https://github.com/loft-sh/devpod/releases/latest/download/de
   && rm -f devpod
 
 # Azure CLI
-curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+# curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
-curl -sSfL \
-  https://github.com/cloudnative-pg/cloudnative-pg/raw/main/hack/install-cnpg-plugin.sh | \
-  sudo sh -s -- -b /usr/local/bin
+# curl -sSfL \
+#  https://github.com/cloudnative-pg/cloudnative-pg/raw/main/hack/install-cnpg-plugin.sh | \
+#  sudo sh -s -- -b /usr/local/bin

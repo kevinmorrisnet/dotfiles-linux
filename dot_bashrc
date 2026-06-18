@@ -109,8 +109,8 @@ fi
 # Environment Variables
 
 # Editors
-export EDITOR="nvim"
-export VISUAL="nvim"
+export EDITOR="vim"
+export VISUAL="vim"
 
 #directories
 export DEV="$HOME/Devops"
