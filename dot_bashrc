@@ -155,3 +155,9 @@ command -v flux >/dev/null && . <(flux completion bash)
 
 #helm completion
 source <(helm completion bash)
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/kevin/google-cloud-sdk/path.bash.inc' ]; then . '/home/kevin/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/kevin/google-cloud-sdk/completion.bash.inc' ]; then . '/home/kevin/google-cloud-sdk/completion.bash.inc'; fi
