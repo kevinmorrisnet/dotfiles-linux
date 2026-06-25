@@ -161,3 +161,6 @@ if [ -f '/home/kevin/google-cloud-sdk/path.bash.inc' ]; then . '/home/kevin/goog
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/kevin/google-cloud-sdk/completion.bash.inc' ]; then . '/home/kevin/google-cloud-sdk/completion.bash.inc'; fi
+
+# Fix GNOME dock/screenshot keybinding conflict
+gsettings set org.gnome.shell.keybindings switch-to-application-4 "[]"
