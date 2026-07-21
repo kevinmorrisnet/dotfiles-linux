@@ -113,7 +113,7 @@ export EDITOR="vim"
 export VISUAL="vim"
 
 #directories
-export DEV="$HOME/Devops"
+export DEV="$HOME/DevOps"
 export REPOS="$HOME/DevOps/Repos"
 export PI="$HOME/DevOps/Repos/github/pi-cluster"
 export BLOG="$HOME/DevOps/Repos/github/blog"
@@ -123,7 +123,7 @@ export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"
 export CLONE="$HOME/DevOps/Repos/clone"
 export SCRIPTS="$HOME/.scripts"
 export LAB="$HOME/DevOps/Repos/github/lab"
-export MASTER="$HOME/DevOps/Repos/github/masterclass"
+export MASTER="$HOME/DevOps/Repos/github/devops-study-app"
 export DOWN="$HOME/Downloads"
 export DEVCON="$HOME/DevOps/Repos/github/devcontainers"
 export JOBS="$HOME/DevOps/Jobs"
@@ -164,3 +164,6 @@ if [ -f '/home/kevin/google-cloud-sdk/completion.bash.inc' ]; then . '/home/kevi
 
 # Fix GNOME dock/screenshot keybinding conflict
 gsettings set org.gnome.shell.keybindings switch-to-application-4 "[]"
+
+#terraform completion
+complete -C /home/kevin/.local/share/mise/installs/terraform/1.15.8/terraform terraform
