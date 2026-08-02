@@ -36,6 +36,7 @@ alias mc='cd $MASTER'
 alias down='cd $DOWN'
 alias devcon='cd $DEVCON'
 alias jobs='cd $JOBS'
+alias sp='cd $SCRATCHPAD'
 
 #k8s
 alias k='kubectl'

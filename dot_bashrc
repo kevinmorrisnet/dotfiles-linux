@@ -119,7 +119,7 @@ export PI="$HOME/DevOps/Repos/github/pi-cluster"
 export BLOG="$HOME/DevOps/Repos/github/blog"
 export HOMELAB="$HOME/DevOps/Repos/github/homelab"
 export GITHUB="$HOME/DevOps/Repos/github"
-export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu"
+export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu/zettelkasten"
 export CLONE="$HOME/DevOps/Repos/clone"
 export SCRIPTS="$HOME/.scripts"
 export LAB="$HOME/DevOps/Repos/github/lab"
@@ -127,6 +127,7 @@ export MASTER="$HOME/DevOps/Repos/github/devops-study-app"
 export DOWN="$HOME/Downloads"
 export DEVCON="$HOME/DevOps/Repos/github/devcontainers"
 export JOBS="$HOME/DevOps/Jobs"
+export SCRATCHPAD="$HOME/DevOps/Docs/scratchpad"
 
 #XDG
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}

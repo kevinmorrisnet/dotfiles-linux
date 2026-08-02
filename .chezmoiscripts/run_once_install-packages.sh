@@ -2,7 +2,8 @@
 set -euo pipefail
 
 # Alacritty + curl
-sudo apt install -y curl
+sudo apt-get update
+sudo apt-get install -y curl vim
 sudo snap install alacritty --classic
 
 # Alacritty Themes
