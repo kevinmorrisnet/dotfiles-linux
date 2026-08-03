@@ -59,8 +59,10 @@ if [ -n "$force_color_prompt" ]; then
   fi
 fi
 
+PROMPT_DIRTRIM=2
 if [ "$color_prompt" = yes ]; then
-  PS1='\e[1;33m\]\u\e[0m\]@\e[1;34m\]\h\e[0m\]:\e[1;35m\]\w\e[0m\]\e[1;31m\] $(parse_git_branch)\e[0m\]\n\$ '
+  PS1='\[\e[1;33m\]\u\[\e[0m\]@\[\e[1;34m\]\h\[\e[0m\]:\[\e[1;35m\]\w\[\e[0m\]\[\e[1;31m\] $(parse_git_branch)\[\e[0m\]\n\$ '
+fi
 
 else
   PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -128,6 +130,7 @@ export DOWN="$HOME/Downloads"
 export DEVCON="$HOME/DevOps/Repos/github/devcontainers"
 export JOBS="$HOME/DevOps/Jobs"
 export SCRATCHPAD="$HOME/DevOps/Docs/scratchpad"
+export NETWORKCLASS="$HOME/DevOps/Repos/github/kubecraft/lessons/clab"
 
 #XDG
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
