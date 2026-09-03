@@ -21,7 +21,6 @@ y = 0
 
 [shell]
 program = "/usr/bin/tmux"
-args = ["new", "-A", "-D", "-s", "main"]
 
 #adding mouse and scrolling params below to gain copy scroll for more than one effin screen in tmux
 [mouse]
