@@ -60,10 +60,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 PROMPT_DIRTRIM=2
+
 if [ "$color_prompt" = yes ]; then
   PS1='\[\e[1;33m\]\u\[\e[0m\]@\[\e[1;34m\]\h\[\e[0m\]:\[\e[1;35m\]\w\[\e[0m\]\[\e[1;31m\] $(parse_git_branch)\[\e[0m\]\n\$ '
-fi
-
 else
   PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -117,20 +116,19 @@ export VISUAL="vim"
 #directories
 export DEV="$HOME/DevOps"
 export REPOS="$HOME/DevOps/Repos"
-export PI="$HOME/DevOps/Repos/github/pi-cluster"
 export BLOG="$HOME/DevOps/Repos/github/blog"
 export HOMELAB="$HOME/DevOps/Repos/github/homelab"
 export GITHUB="$HOME/DevOps/Repos/github"
 export SECONDBRAIN="$HOME/Obsidian/second-brain-ubuntu/zettelkasten"
-export CLONE="$HOME/DevOps/Repos/clone"
+export CLONE="$HOME/DevOps/Repos/github/clone"
 export SCRIPTS="$HOME/.scripts"
-export LAB="$HOME/DevOps/Repos/github/lab"
-export MASTER="$HOME/DevOps/Repos/github/devops-study-app"
+export LAB="$HOME/DevOps/Repos/github/learning-lab"
+export MASTER="$HOME/DevOps/Repos/github/masterclass/devops-study-app"
 export DOWN="$HOME/Downloads"
 export DEVCON="$HOME/DevOps/Repos/github/devcontainers"
 export JOBS="$HOME/DevOps/Jobs"
 export SCRATCHPAD="$HOME/DevOps/Docs/scratchpad"
-export NETWORKCLASS="$HOME/DevOps/Repos/github/kubecraft/lessons/clab"
+export NETWORKCLASS="$HOME/DevOps/Repos/github/forks/kubecraft/lessons/clab"
 
 #XDG
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:-$HOME/.config}
@@ -146,6 +144,9 @@ export do="--dry-run=client -o yaml"
 
 #restic
 export RESTIC_PASSWORD_FILE="$HOME/.restic-password"
+
+#age file location
+export SOPS_AGE_KEY_FILE="$HOME/.config/age/keys.txt"
 
 #activate mise
 eval "$(~/.local/bin/mise activate bash)"

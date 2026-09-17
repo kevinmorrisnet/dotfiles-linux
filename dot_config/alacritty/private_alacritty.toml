@@ -1,3 +1,4 @@
+[general]
 # themes from https://github.com/alacritty/alacritty-theme
 import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 
@@ -19,7 +20,7 @@ dimensions = { columns = 120, lines = 80 }
 x = 7
 y = 0
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/tmux"
 
 #adding mouse and scrolling params below to gain copy scroll for more than one effin screen in tmux
@@ -28,3 +29,5 @@ hide_when_typing = false
 
 [scrolling]
 history = 0
+
+[terminal]
