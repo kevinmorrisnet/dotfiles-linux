@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Alacritty + curl
 sudo apt-get update
-sudo apt-get install -y curl vim unzip alacritty
+sudo apt-get install -y curl vim unzip alacritty tmux
 
 # Alacritty Themes
 if [ ! -d ~/.config/alacritty/themes ]; then
